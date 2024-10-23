@@ -61,15 +61,6 @@ gravatarEmail = "mulberror@gmail.com"
 # 主页显示头像的 URL
 # 将你的头像文件放置于 static 或者 assets 目录下
 # 文件路径是相对于 static 或者 assets 目录的
-avatarURL = "/images/avatar.webp"
-# 头像的链接指向的 URL
-avatarLinkURL = "https://blog.mulbx.top/"
-# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = ""
-# 主页显示的网站副标题
-subtitle = "与其诅咒黑暗，不如燃起烛光。"
-# 是否为副标题显示打字机动画
-typeit = true
 
 [params.social]
 GitHub = "mulberror"
@@ -200,34 +191,103 @@ Trello = false
 Mix = false
 Mastodon = false
 
-[menu]
-[[menu.main]]
-identifier = "posts"
-# 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+[languages]
+[languages.zh-cn]
+weight = 1
+# language code, CN only here
+languageCode = "zh-CN"
+languageName = "简体中文"
+# whether to include Chinese/Japanese/Korean
+hasCJKLanguage = true
+
+# DoIt 新增 | 0.2.13 赞赏配置
+[languages.zh-cn.params.sponsor]
+enable = true
+bio = "如果你觉得这篇文章对你有所帮助，欢迎给我一杯免费的咖啡~"
+link = "" # 你的赞赏页面的地址
+custom = "" # 自定义 HTML
+
+[languages.zh-cn.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+# gravatarEmail = "xiaoyin_c@qq.com"
+# 主页显示头像的 URL
+avatarURL = "/images/avatar.webp"
+# 头像的链接指向的 URL
+avatarLinkURL = "https://blog.mulbx.top/"
+# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = ""
+# 主页显示的网站副标题
+subtitle = "与其诅咒黑暗，不如燃起烛光。"
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
+
+[languages.zh-cn.params.home.posts]
+enable = true
+# special amount of posts in each home posts page
+paginate = 10
+
+# DoIt 更改 | 0.2.7 第三方库文件的 CDN 设置
+# [languages.zh-cn.params.cdn]
+#   # CDN 数据文件名称, 默认不启用
+#   # 位于 "themes/DoIt/assets/data/cdn/" 目录
+#   # 可以在你的项目下相同路径存放你自己的数据文件:
+#   # "assets/data/cdn/"
+#   data = "jsdelivr.yml"
+
+[[languages.zh-cn.menu.main]]
+identifier = "homapage"
 pre = ""
-# 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
 post = ""
-name = "文章"
-url = "/posts/"
-# 当你将鼠标悬停在此菜单链接上时, 将显示的标题
+name = "首页"
+url = "/"
 title = ""
 weight = 1
-[[menu.main]]
-identifier = "tags"
-pre = ""
-post = ""
-name = "标签"
-url = "/tags/"
-title = ""
+
+[languages.en]
 weight = 2
-[[menu.main]]
-identifier = "categories"
+languageCode = "en"
+languageName = "English"
+[languages.en.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+# gravatarEmail = "xiaoyin_c@qq.com"
+# 主页显示头像的 URL
+avatarURL = "/avatar/myself.webp"
+# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = ""
+# 主页显示的网站副标题
+subtitle = """Better to light on candle than to curse the darkness."""
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
+
+[languages.en.params.sponsor]
+enable = true
+bio = "If you find my creation helpful, I would be pleased if get a free coffee~"
+link = "https://www.buymeacoffee.com/ryan4yin" # The link to your sponsor page
+custom = "" # Custom HTML button
+
+[languages.en.params.home.posts]
+enable = true
+# special amount of posts in each home posts page
+paginate = 10
+
+[[languages.en.menu.main]]
+identifier = "homepage"
 pre = ""
 post = ""
-name = "分类"
-url = "/categories/"
+name = "Home"
+url = "/"
 title = ""
-weight = 3
+weight = 1
 
 # Hugo 解析文档的配置
 [markup]
