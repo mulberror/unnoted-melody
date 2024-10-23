@@ -3,5 +3,6 @@
         <title>Categories - 分类 - Blank Notebook</title>
         <link>http://localhost:1313/categories/</link>
         <description>Categories - 分类 - Blank Notebook</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (mulberror)</managingEditor>
+            <webMaster>mulberror@gmail.com (mulberror)</webMaster><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>
