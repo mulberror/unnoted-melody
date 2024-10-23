@@ -71,7 +71,7 @@ subtitle = "与其诅咒黑暗，不如燃起烛光。"
 # 是否为副标题显示打字机动画
 typeit = true
 
-[params.home.profile.social]
+[params.social]
 GitHub = "mulberror"
 QQ = "2724295952"
 Email = "mulberror@gmail.com"
