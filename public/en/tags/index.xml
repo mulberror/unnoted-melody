@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Blank Notebook</title>
+        <link>http://localhost:1313/en/tags/</link>
+        <description>Tags - Tag - Blank Notebook</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mulberror@gmail.com (mulberror)</managingEditor>
+            <webMaster>mulberror@gmail.com (mulberror)</webMaster><atom:link href="http://localhost:1313/en/tags/" rel="self" type="application/rss+xml" /></channel>
+</rss>
