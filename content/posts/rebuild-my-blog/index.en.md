@@ -15,7 +15,7 @@ tags: ["hugo", "vercel", "cloudflare", "Blog"]
 # 分类
 categories: ["Build-Site"]
 # 系列
-series: ["My-Blog-Reborn"]
+# series: ["My-Blog-Reborn"]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除

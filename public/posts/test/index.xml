@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有测试 - Blank Notebook</title>
+        <link>http://localhost:1313/posts/test/</link>
+        <description>所有测试 | Blank Notebook</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
+            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Thu, 24 Oct 2024 23:48:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/test/" rel="self" type="application/rss+xml" /></channel>
+</rss>

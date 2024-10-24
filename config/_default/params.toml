@@ -10,7 +10,7 @@ keywords = [
   "莫柏瑞",
   "Full-Stack",
   "Computer Science",
-  "Mathematics"
+  "Mathematics",
 ]
 
 # 网站默认主题样式 ("light", "dark", "auto")
@@ -183,8 +183,8 @@ Mastodon = false
 
 [search]
 enable = true
-# 搜索引擎的类型 ("lunr", "algolia")
-type = "algolia"
+# 搜索引擎的类型 ("algolia", "fuse")
+type = "fuse"
 # 文章内容最长索引长度
 contentLength = 4000
 # 搜索框的占位提示语
@@ -197,10 +197,17 @@ snippetLength = 50
 highlightTag = "em"
 # DoIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
 absoluteURL = false
-[params.search.algolia]
-index = "mulberror-site"
-appID = "MXP1WFVWGE"
-searchKey = "e718147816b4e89d6799cf290fa03961"
+[search.fuse]
+# DoIt 新增 | 0.2.12 https://fusejs.io/api/options.html
+isCaseSensitive = false
+minMatchCharLength = 2
+findAllMatches = false
+location = 0
+threshold = 0.3
+distance = 1000           # 爬取文章前多少内容
+ignoreLocation = false
+useExtendedSearch = false
+ignoreFieldNorm = false
 
 # 页面头部导航栏配置
 [header]
