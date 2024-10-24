@@ -64,18 +64,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      # 启用 Node.js
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "16.x"
-      # 将数据推送到搜索 algolia
-      - name: Push index.json To algolia
-        run: |
-          npm install algoliasearch@4
-          node push_index_algolia.js
-        env:
-          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
 
   # Deployment job
   deploy:
