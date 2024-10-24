@@ -49,7 +49,7 @@ DoIt 主题非常符合我一开始预想的博客样式，所以就直接花了
 - Hugo: v0.136.4
 - DoIt: 0.4.X
 
-## 2 Hugo + Gitpage 阶段
+## 2 Hugo + Gitpage
 ### 2.1 本地配置
 这个部分对于每个 Hugo 用户应该都比较熟练，在这里简单记录一下。
 
@@ -73,4 +73,4 @@ Vercel 从 github 中同步并部署项目的功能十分方便。
 
 在本地资源 push 到 github 仓库后，Vercel 会直接同步资源并且部署的速度非常快。
 
-使用 github 账号登录 Vercel 或者注册 Vercel 账号再关联自己的 github 账号，然后点击 `Add New...` 从 github 仓库中导入部署到 Gitpage 的博客，
+使用 github 账号登录 Vercel 或者注册 Vercel 账号再关联自己的 github 账号，然后点击 `Add New...` 从 github 仓库中导入部署到 Gitpage 的博客。
