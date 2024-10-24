@@ -1,0 +1,159 @@
+[zh-cn]
+weight = 1
+# language code, CN only here
+languageCode = "zh-CN"
+languageName = "简体中文"
+# whether to include Chinese/Japanese/Korean
+hasCJKLanguage = true
+
+[zh-cn.params.author]
+name = "森绪"
+
+# DoIt 新增 | 0.2.13 赞赏配置
+[zh-cn.params.sponsor]
+enable = true
+bio = "如果你觉得这篇文章有帮助欢迎给我一杯免费的咖啡~"
+link = "" # 你的赞赏页面的地址
+custom = "" # 自定义 HTML
+
+[zh-cn.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+# gravatarEmail = "xiaoyin_c@qq.com"
+# 主页显示头像的 URL
+avatarURL = "/images/avatar.webp"
+# 头像的链接指向的 URL
+avatarLinkURL = "https://blog.mulbx.top/"
+# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = ""
+# 主页显示的网站副标题
+subtitle = "与其诅咒黑暗，不如燃起烛光。"
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
+
+[zh-cn.params.home.posts]
+enable = true
+# special amount of posts in each home posts page
+paginate = 10
+
+# DoIt 更改 | 0.2.7 第三方库文件的 CDN 设置
+# [zh-cn.params.cdn]
+#   # CDN 数据文件名称, 默认不启用
+#   # 位于 "themes/DoIt/assets/data/cdn/" 目录
+#   # 可以在你的项目下相同路径存放你自己的数据文件:
+#   # "assets/data/cdn/"
+#   data = "jsdelivr.yml"
+
+[[zh-cn.menu.main]]
+identifier = "homapage"
+pre = ""
+post = ""
+name = "首页"
+url = "/"
+title = ""
+weight = 1
+
+[[zh-cn.menu.main]]
+identifier = "series"
+pre = ""
+post = ""
+name = "系列"
+url = "/series/"
+title = ""
+weight = 3
+
+[[zh-cn.menu.main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "分类"
+url = "/categories/"
+title = ""
+weight = 5
+
+[[zh-cn.menu.main]]
+identifier = "tags"
+pre = ""
+post = ""
+name = "标签"
+url = "/tags/"
+title = ""
+weight = 7
+
+# ========================== 以上为中文设置 ==========================
+
+[en]
+weight = 2
+languageCode = "en"
+languageName = "English"
+
+[en.params.author]
+name = "mulberror"
+
+[en.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+# gravatarEmail = "xiaoyin_c@qq.com"
+# 主页显示头像的 URL
+avatarURL = "/avatar/myself.webp"
+# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+title = ""
+# 主页显示的网站副标题
+subtitle = """Better to light on candle than to curse the darkness."""
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+disclaimer = ""
+
+[en.params.sponsor]
+enable = true
+bio = "If you find my creation helpful, I would be pleased if get a free coffee~"
+link = "https://www.buymeacoffee.com/ryan4yin" # The link to your sponsor page
+custom = "" # Custom HTML button
+
+[en.params.home.posts]
+enable = true
+# special amount of posts in each home posts page
+paginate = 10
+
+[[en.menu.main]]
+identifier = "homepage"
+pre = ""
+post = ""
+name = "Home"
+url = "/"
+title = ""
+weight = 1
+
+[[en.menu.main]]
+identifier = "series"
+pre = ""
+post = ""
+name = "Series"
+url = "/series/"
+title = ""
+weight = 3
+
+[[en.menu.main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "Category"
+url = "/categories/"
+title = ""
+weight = 5
+
+[[en.menu.main]]
+identifier = "Tags"
+pre = ""
+post = ""
+name = "Tags"
+url = "/tags/"
+title = ""
+weight = 7

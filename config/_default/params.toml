@@ -1,38 +1,4 @@
-baseURL = "https://blog.mulbx.top/"
-# [en, zh-cn, fr, ...] 设置默认的语言
-defaultContentLanguage = "zh-cn"
-# 网站语言, 仅在这里 CN 大写
-languageCode = "zh-CN"
-# 是否包括中日韩文字
-hasCJKLanguage = true
-# 网站标题
-title = "Blank Notebook"
-
-# 更改使用 Hugo 构建网站时使用的默认主题
-theme = "DoIt"
-
-# 网站关键词
-keywords = [
-  "Mulberror",
-  "Blog",
-  "森绪",
-  "Full-Stack",
-  "Computer Science",
-  "Mathematics"
-]
-
-# DoIt 新增 | 0.2.0 日期格式
-dateFormat = "2006-01-02"
-
-[params]
-# DoIt 主题版本
-version = "0.2.X"
-
-# 网站默认主题样式 ("light", "dark", "auto")
-defaultTheme = "auto"
-
-# 作者配置
-[params.author]
+[author]
 name = "mulberror"
 email = "mulberror@gmail.com"
 link = "https://blog.mulbx.top"
@@ -40,7 +6,7 @@ avatar = ""
 gravatarEmail = "mulberror@gmail.com"
 
 # DoIt 新增 | 0.2.0 List (目录或标签) 页面配置
-[params.list]
+[list]
 # list 页面每页显示文章数量
 paginate = 20
 # 日期格式 (月和日)
@@ -49,12 +15,12 @@ dateFormat = "01-02"
 rss = 10
 
 # 主页配置
-[params.home]
+[home]
 # DoIt 新增 | 0.2.0 RSS 文章数目
 rss = 10
 
 # 主页个人信息
-[params.home.profile]
+[home.profile]
 enable = true
 # Gravatar 邮箱, 用于优先在主页显示的头像
 gravatarEmail = "mulberror@gmail.com"
@@ -62,13 +28,13 @@ gravatarEmail = "mulberror@gmail.com"
 # 将你的头像文件放置于 static 或者 assets 目录下
 # 文件路径是相对于 static 或者 assets 目录的
 
-[params.social]
+[social]
 GitHub = "mulberror"
 Email = "mulberror@gmail.com"
 Bilibili = "228169364"
 RSS = true
 
-[params.page]
+[page]
 # DoIt 新增 | 0.2.0 是否在主页隐藏一篇文章
 hiddenFromHomePage = false
 # DoIt 新增 | 0.2.0 是否在搜索结果中隐藏一篇文章
@@ -104,15 +70,17 @@ enableLastMod = true
 enableWordCount = true
 # 是否启用阅读时间估计
 enableReadingTime = true
+
 # DoIt 新增 | 0.2.13 过时文章提示
-[params.page.outdatedArticleReminder]
+[page.outdatedArticleReminder]
 enable = true
 # 如果文章最后更新于 90 天之前，显示提醒
 reminder = 90
 # 如果文章最后更新于 180 天之前，显示警告
 warning = 180
+
 # DoIt 新增 | 0.2.0 目录配置
-[params.page.toc]
+[page.toc]
 # 是否使用目录
 enable = true
 # DoIt 新增 | 0.2.9 是否保持使用文章前面的静态目录
@@ -120,15 +88,16 @@ keepStatic = true
 # 是否使侧边目录自动折叠展开
 auto = true
 # DoIt 新增 | 0.2.0 代码配置
-[params.page.code]
+[page.code]
 # 默认展开显示的代码行数
 maxShownLines = 10
 # DoIt 新增 | 0.2.14 表格配置
-[params.page.table]
+[page.table]
 # 是否开启表格排序
 sort = true
+
 # DoIt 更改 | 0.2.0 KaTeX 数学公式
-[params.page.math]
+[page.math]
 enable = true
 # 默认块定界符是 $$ ... $$ 和 \\[ ... \\]
 blockLeftDelimiter = ""
@@ -142,8 +111,9 @@ copyTex = true
 mhchem = true
 # 使用 MathJax 替代 KaTeX
 mathjax = false
+
 # DoIt 新增 | 0.2.0 Mapbox GL JS 配置
-[params.page.mapbox]
+[page.mapbox]
 # Mapbox GL JS 的 access token
 accessToken = ""
 # 浅色主题的地图样式
@@ -158,8 +128,9 @@ geolocate = true
 scale = true
 # 是否添加 FullscreenControl
 fullscreen = true
+
 # DoIt 更改 | 0.2.0 文章页面的分享信息设置
-[params.page.share]
+[page.share]
 enable = true
 Twitter = true
 Facebook = true
@@ -189,108 +160,3 @@ Skype = false
 Trello = false
 Mix = false
 Mastodon = false
-
-[languages]
-[languages.zh-cn]
-weight = 1
-# language code, CN only here
-languageCode = "zh-CN"
-languageName = "简体中文"
-# whether to include Chinese/Japanese/Korean
-hasCJKLanguage = true
-
-# DoIt 新增 | 0.2.13 赞赏配置
-[languages.zh-cn.params.sponsor]
-enable = true
-bio = "如果你觉得这篇文章对你有所帮助，欢迎给我一杯免费的咖啡~"
-link = "" # 你的赞赏页面的地址
-custom = "" # 自定义 HTML
-
-[languages.zh-cn.params.home.profile]
-enable = true
-# Gravatar 邮箱，用于优先在主页显示的头像
-# gravatarEmail = "xiaoyin_c@qq.com"
-# 主页显示头像的 URL
-avatarURL = "/images/avatar.webp"
-# 头像的链接指向的 URL
-avatarLinkURL = "https://blog.mulbx.top/"
-# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = ""
-# 主页显示的网站副标题
-subtitle = "与其诅咒黑暗，不如燃起烛光。"
-# 是否为副标题显示打字机动画
-typeit = true
-# 是否显示社交账号
-social = true
-# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-disclaimer = ""
-
-[languages.zh-cn.params.home.posts]
-enable = true
-# special amount of posts in each home posts page
-paginate = 10
-
-# DoIt 更改 | 0.2.7 第三方库文件的 CDN 设置
-# [languages.zh-cn.params.cdn]
-#   # CDN 数据文件名称, 默认不启用
-#   # 位于 "themes/DoIt/assets/data/cdn/" 目录
-#   # 可以在你的项目下相同路径存放你自己的数据文件:
-#   # "assets/data/cdn/"
-#   data = "jsdelivr.yml"
-
-[[languages.zh-cn.menu.main]]
-identifier = "homapage"
-pre = ""
-post = ""
-name = "首页"
-url = "/"
-title = ""
-weight = 1
-
-[languages.en]
-weight = 2
-languageCode = "en"
-languageName = "English"
-[languages.en.params.home.profile]
-enable = true
-# Gravatar 邮箱，用于优先在主页显示的头像
-# gravatarEmail = "xiaoyin_c@qq.com"
-# 主页显示头像的 URL
-avatarURL = "/avatar/myself.webp"
-# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = ""
-# 主页显示的网站副标题
-subtitle = """Better to light on candle than to curse the darkness."""
-# 是否为副标题显示打字机动画
-typeit = true
-# 是否显示社交账号
-social = true
-# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
-disclaimer = ""
-
-[languages.en.params.sponsor]
-enable = true
-bio = "If you find my creation helpful, I would be pleased if get a free coffee~"
-link = "https://www.buymeacoffee.com/ryan4yin" # The link to your sponsor page
-custom = "" # Custom HTML button
-
-[languages.en.params.home.posts]
-enable = true
-# special amount of posts in each home posts page
-paginate = 10
-
-[[languages.en.menu.main]]
-identifier = "homepage"
-pre = ""
-post = ""
-name = "Home"
-url = "/"
-title = ""
-weight = 1
-
-# Hugo 解析文档的配置
-[markup]
-# 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
-[markup.highlight]
-# false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
-noClasses = false
