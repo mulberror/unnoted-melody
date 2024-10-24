@@ -4,5 +4,5 @@
         <link>http://localhost:1313/posts/rebuild-my-blog/</link>
         <description>所有用 Hugo &#43; Vercel &#43; Cloudflare 重建博客 | Blank Notebook</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
-            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Wed, 23 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/rebuild-my-blog/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/rebuild-my-blog/" rel="self" type="application/rss+xml" /></channel>
 </rss>

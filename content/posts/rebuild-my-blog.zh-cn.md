@@ -2,7 +2,7 @@
 title: "用 Hugo + Vercel + Cloudflare 重建博客"
 subtitle: ""
 description: ""
-date: 2024-10-23T00:51:43+08:00
+date: 2024-10-22T00:51:43+08:00
 lastmod: 2024-10-24T00:51:43+08:00
 draft: false
 

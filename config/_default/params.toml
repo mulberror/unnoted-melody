@@ -161,7 +161,7 @@ Trello = false
 Mix = false
 Mastodon = false
 
-[params.search]
+[search]
 enable = true
 # 搜索引擎的类型 ("lunr", "algolia")
 type = "algolia"

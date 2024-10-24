@@ -12,7 +12,7 @@ name = "森绪"
 # DoIt 新增 | 0.2.13 赞赏配置
 [zh-cn.params.sponsor]
 enable = true
-bio = "如果你觉得这篇文章有帮助欢迎给我一杯免费的咖啡~"
+bio = "如果你觉得这篇文章有帮助欢迎给赠我一杯免费的咖啡~"
 link = "" # 你的赞赏页面的地址
 custom = "" # 自定义 HTML
 
