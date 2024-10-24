@@ -50,6 +50,15 @@
                     hreflang="en"
                     href="http://localhost:1313/en/posts/"
                     /></url><url>
+            <loc>http://localhost:1313/en/posts/rebuild-my-blog/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://localhost:1313/posts/rebuild-my-blog/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/en/posts/rebuild-my-blog/"
+                    /></url><url>
             <loc>http://localhost:1313/en/series/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -76,15 +85,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="http://localhost:1313/en/tags/vercel/"
-                    /></url><url>
-            <loc>http://localhost:1313/en/posts/rebuild-my-blog/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://localhost:1313/posts/rebuild-my-blog/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://localhost:1313/en/posts/rebuild-my-blog/"
                     /></url><url>
             <loc>http://localhost:1313/en/authors/</loc><xhtml:link
                         rel="alternate"

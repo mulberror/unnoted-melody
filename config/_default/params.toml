@@ -22,7 +22,7 @@ enablePWA = false
 email = "mulberror@gmail.com"
 link = "https://blog.mulbx.top"
 avatar = ""
-gravatarEmail = "mulberror@gmail.com"
+# gravatarEmail = "mulberror@gmail.com"
 
 # DoIt 新增 | 0.2.0 List (目录或标签) 页面配置
 [list]

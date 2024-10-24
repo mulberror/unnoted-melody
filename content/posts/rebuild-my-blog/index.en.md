@@ -1,5 +1,5 @@
 ---
-title: "用 Hugo + Vercel + Cloudflare 重建博客"
+title: "Reborn Blog by Hugo, Vercel and Cloudflare"
 subtitle: ""
 description: ""
 date: 2024-10-22T00:51:43+08:00
