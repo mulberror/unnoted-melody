@@ -74,3 +74,10 @@ Vercel 从 github 中同步并部署项目的功能十分方便。
 在本地资源 push 到 github 仓库后，Vercel 会直接同步资源并且部署的速度非常快。
 
 使用 github 账号登录 Vercel 或者注册 Vercel 账号再关联自己的 github 账号，然后点击 `Add New...` 从 github 仓库中导入部署到 Gitpage 的博客。
+
+{{<figure src="/img/posts/rebuild-my-blog/port-from-vercel.webp" title="Vercel 中导入对应 github 项目" width="90%">}}
+
+{{<figure src="/img/posts/rebuild-my-blog/choose-hugo.webp" title="选择 Hugo 框架" width="90%">}}
+
+导入后，Vercel 中的项目和选择的 github 仓库就连接在一起了，只要本地 commit 一次，Vercel 中的项目也会重新部署一次。
+

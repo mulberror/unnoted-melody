@@ -2,7 +2,7 @@
     <channel>
         <title>Blank Notebook</title>
         <link>http://localhost:1313/</link>
-        <description>Blank Notebook</description>
+        <description>Mulberror&#39;s Blank Notebook</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
             <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />

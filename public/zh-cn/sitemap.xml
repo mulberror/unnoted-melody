@@ -20,9 +20,33 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/tags/cloudflare/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/hugo/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/cloudflare/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/cloudflare/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/tags/cloudflare/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/hugo/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/hugo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/tags/hugo/"
+                    /></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/posts/"
+                    /></url><url>
             <loc>http://localhost:1313/series/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -41,11 +65,27 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/tags/vercel/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/vercel/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/tags/vercel/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/tags/vercel/"
+                    /></url><url>
             <loc>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/categories/%E5%BB%BA%E7%AB%99/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/series/%E5%B0%8F%E7%AB%99%E9%87%8D%E7%94%9F%E8%AE%B0/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/rebuild-my-blog/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/rebuild-my-blog/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/posts/rebuild-my-blog/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/posts/rebuild-my-blog/"
+                    /></url><url>
             <loc>http://localhost:1313/authors/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"

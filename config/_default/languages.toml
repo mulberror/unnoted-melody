@@ -12,22 +12,20 @@ name = "森绪"
 # DoIt 新增 | 0.2.13 赞赏配置
 [zh-cn.params.sponsor]
 enable = true
-bio = "如果你觉得这篇文章有帮助欢迎给赠我一杯免费的咖啡~"
+bio = "如果觉得我的文章有帮助，欢迎赠我一杯免费的咖啡~"
 link = "" # 你的赞赏页面的地址
 custom = "" # 自定义 HTML
 
 [zh-cn.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
-# gravatarEmail = "xiaoyin_c@qq.com"
-# 主页显示头像的 URL
-avatarURL = "/images/avatar.webp"
+# gravatarEmail = "mulberror@gmail.com"
 # 头像的链接指向的 URL
 avatarLinkURL = "https://blog.mulbx.top/"
 # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
 title = ""
 # 主页显示的网站副标题
-subtitle = "与其诅咒黑暗，不如燃起烛光。"
+subtitle = "与其抱怨长夜，何不秉烛夜行。"
 # 是否为副标题显示打字机动画
 typeit = true
 # 是否显示社交账号
@@ -92,15 +90,14 @@ languageCode = "en"
 languageName = "English"
 
 [en.params.author]
-name = "mulberror"
+name = "Mulberror"
 
 [en.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
-# gravatarEmail = "xiaoyin_c@qq.com"
-# 主页显示头像的 URL
-avatarURL = "/avatar/myself.webp"
 # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+# 头像的链接指向的 URL
+avatarLinkURL = "https://blog.mulbx.top/en/"
 title = ""
 # 主页显示的网站副标题
 subtitle = """Better to light on candle than to curse the darkness."""
