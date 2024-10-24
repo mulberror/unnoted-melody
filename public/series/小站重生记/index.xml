@@ -5,13 +5,13 @@
         <description>小站重生记 - 系列 - Blank Notebook</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
             <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Wed, 23 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/series/%E5%B0%8F%E7%AB%99%E9%87%8D%E7%94%9F%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
-    <title>用 hugo &#43; vercel &#43; cloudflare 重建博客</title>
+    <title>用 Hugo &#43; Vercel &#43; Cloudflare 重建博客</title>
     <link>http://localhost:1313/posts/rebuild-my-blog/</link>
     <pubDate>Wed, 23 Oct 2024 00:51:43 &#43;0800</pubDate><author>
         <name>森绪</name>
     </author><guid>http://localhost:1313/posts/rebuild-my-blog/</guid>
     <description><![CDATA[<h2 id="1-前言" class="headerLink">
-    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>我之前也是用 hugo 框架搭建的博客，使用的主题是 PaperMod。</p>
+    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>我之前也是用 Hugo 框架搭建的博客，使用的主题是 PaperMod。</p>
 <p>不过因为大部分存货都丢失了，再加上碰巧见看到了 <a href="https://thiscute.world/" target="_blank" rel="noopener noreferrer">ryan4yin</a> 大佬的博客，从而了解到了 <a href="https://pcloud.dev/" target="_blank" rel="noopener noreferrer">HEIGE-PCloud</a> 大佬制作的 <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer">DoIt</a> 主题。</p>]]></description>
 </item></channel>
 </rss>

@@ -160,3 +160,24 @@ Skype = false
 Trello = false
 Mix = false
 Mastodon = false
+
+[params.search]
+enable = true
+# 搜索引擎的类型 ("lunr", "algolia")
+type = "algolia"
+# 文章内容最长索引长度
+contentLength = 4000
+# 搜索框的占位提示语
+placeholder = ""
+# DoIt 新增 | 0.2.1 最大结果数目
+maxResultLength = 10
+# DoIt 新增 | 0.2.3 结果内容片段长度
+snippetLength = 50
+# DoIt 新增 | 0.2.1 搜索结果中高亮部分的 HTML 标签
+highlightTag = "em"
+# DoIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
+absoluteURL = false
+[params.search.algolia]
+index = "mulberror-site"
+appID = "MXP1WFVWGE"
+searchKey = "e718147816b4e89d6799cf290fa03961"
