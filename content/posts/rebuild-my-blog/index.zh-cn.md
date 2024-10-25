@@ -81,3 +81,6 @@ Vercel 从 github 中同步并部署项目的功能十分方便。
 
 导入后，Vercel 中的项目和选择的 github 仓库就连接在一起了，只要本地 commit 一次，Vercel 中的项目也会重新部署一次。
 
+并且每一个托管的项目都会给一个独立的 url 连接，这样方便自己的域名解析。
+
+## 4 Cloudflare
