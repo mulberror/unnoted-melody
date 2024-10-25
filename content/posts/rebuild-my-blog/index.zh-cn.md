@@ -1,5 +1,5 @@
 ---
-title: "用 Hugo + Vercel + Cloudflare 重建博客"
+title: "用 Hugo + Vercel 重建博客"
 subtitle: ""
 description: ""
 date: 2024-10-22T00:51:43+08:00
@@ -11,7 +11,7 @@ resources:
   src: "featured-image.webp"
 
 # 标签
-tags: ["hugo", "vercel", "cloudflare", "博客"]
+tags: ["hugo", "vercel", "博客"]
 # 分类
 categories: ["建站"]
 # 系列
@@ -83,4 +83,4 @@ Vercel 从 github 中同步并部署项目的功能十分方便。
 
 并且每一个托管的项目都会给一个独立的 url 连接，这样方便自己的域名解析。
 
-## 4 Cloudflare
+## 4 

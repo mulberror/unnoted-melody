@@ -22,15 +22,7 @@
                     hreflang="en"
                     href="http://localhost:1313/en/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/cloudflare/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://localhost:1313/tags/cloudflare/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://localhost:1313/en/tags/cloudflare/"
-                    /></url><url>
+            <loc>http://localhost:1313/en/tags/cloudflare/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/en/tags/hugo/</loc><lastmod>2024-10-24T00:51:43&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
