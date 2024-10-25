@@ -6,17 +6,17 @@ import shutil
 # 创建一篇文章
 def newpost(en_name, zh_name, enable_en=False):
     post_name = en_name
-    os.system(f"hugo new posts/{post_name}/{post_name}.zh-cn.md")
-    os.rename(f"./content/posts/{post_name}/{post_name}.zh-cn.md", f"./content/posts/{post_name}/index.zh-cn.md")
+    os.system(f"hugo new posts/{post_name}/{post_name}.md")
+    os.rename(f"./content/posts/{post_name}/{post_name}.md", f"./content/posts/{post_name}/index.md")
 
     if enable_en:
-        shutil.copy(f"./content/posts/{post_name}/index.zh-cn.md", f"./content/posts/{post_name}/index.en.md")
+        shutil.copy(f"./content/posts/{post_name}/index.md", f"./content/posts/{post_name}/index.en.md")
 
     # 替换标题
-    with open(f"./content/posts/{post_name}/index.zh-cn.md", 'r', encoding='utf-8') as file:
+    with open(f"./content/posts/{post_name}/index.md", 'r', encoding='utf-8') as file:
         lines = file.readlines()
     lines[1] = f"""title: "{zh_name}"\n"""
-    with open(f"./content/posts/{post_name}/index.zh-cn.md", 'w', encoding='utf-8') as file:
+    with open(f"./content/posts/{post_name}/index.md", 'w', encoding='utf-8') as file:
         file.writelines(lines)
 
 

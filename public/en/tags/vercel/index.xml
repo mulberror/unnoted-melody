@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Vercel - Tag - Blank Notebook</title>
+        <title>Vercel - Tag - Unnoted Melody</title>
         <link>http://localhost:1313/en/tags/vercel/</link>
-        <description>Vercel - Tag - Blank Notebook</description>
+        <description>Vercel - Tag - Unnoted Melody</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mulberror@gmail.com (Mulberror)</managingEditor>
             <webMaster>mulberror@gmail.com (Mulberror)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/en/tags/vercel/" rel="self" type="application/rss+xml" /><item>
     <title>Reborn Blog by Hugo, Vercel and Cloudflare</title>

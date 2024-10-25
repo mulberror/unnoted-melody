@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Blank Notebook</title>
+        <title>Unnoted Melody</title>
         <link>http://localhost:1313/en/</link>
-        <description>Mulberror&#39;s Blank Notebook</description>
+        <description>Mulberror&#39;s Unnoted Melody</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mulberror@gmail.com (Mulberror)</managingEditor>
-            <webMaster>mulberror@gmail.com (Mulberror)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate>
+            <webMaster>mulberror@gmail.com (Mulberror)</webMaster><lastBuildDate>Thu, 24 Oct 2024 00:24:31 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Reborn Blog by Hugo, Vercel and Cloudflare</title>

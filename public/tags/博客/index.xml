@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>博客 - 标签 - Blank Notebook</title>
+        <title>博客 - 标签 - Unnoted Melody</title>
         <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
-        <description>博客 - 标签 - Blank Notebook</description>
+        <description>博客 - 标签 - Unnoted Melody</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
             <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
     <title>用 Hugo &#43; Vercel 重建博客</title>

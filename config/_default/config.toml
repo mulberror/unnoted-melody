@@ -4,7 +4,7 @@ defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
 languageCode = "zh-CN"
 # 是否包括中日韩文字
-title = "Blank Notebook"
+title = "Unnoted Melody"
 
 hasCJKLanguage = true
 # 网站标题
@@ -14,12 +14,13 @@ theme = "DoIt"
 # 网站关键词
 keywords = [
   "Mulberror",
-  "Blog",
+  "blog",
   "森绪",
   "莫柏瑞",
-  "Full-Stack",
-  "Computer Science",
-  "Mathematics"
+  "full-stack",
+  "computer science",
+  "mathematics",
+  "Unnoted Melody"
 ]
 
 # DoIt 新增 | 0.2.0 日期格式

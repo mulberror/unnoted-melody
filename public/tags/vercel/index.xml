@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Vercel - 标签 - Blank Notebook</title>
+        <title>Vercel - 标签 - Unnoted Melody</title>
         <link>http://localhost:1313/tags/vercel/</link>
-        <description>Vercel - 标签 - Blank Notebook</description>
+        <description>Vercel - 标签 - Unnoted Melody</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
             <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/vercel/" rel="self" type="application/rss+xml" /><item>
     <title>用 Hugo &#43; Vercel 重建博客</title>
