@@ -11,7 +11,7 @@ resources:
   src: "featured-image.webp"
 
 # 标签
-tags: ["hugo", "vercel", "cloudflare", "Blog"]
+tags: ["hugo", "vercel", "Blog"]
 # 分类
 categories: ["Build-Site"]
 # 系列

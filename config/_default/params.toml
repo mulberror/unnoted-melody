@@ -300,7 +300,7 @@ enable = false
 [page.comment.utterances]
 enable = true
 # owner/repo
-repo = "mulberror/unnoted-melody"
+repo = "mulberror/blog-comments"
 issueTerm = "pathname"
 label = ""
 lightTheme = "github-light"
