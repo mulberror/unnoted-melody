@@ -1,5 +1,5 @@
 ---
-title: "DoIt 主题在 Vercel Live 模式下遇到的加载问题"
+title: "DoIt theme encountered loading problems in Vercel Live mode"
 subtitle: ""
 description: ""
 date: 2024-10-27T09:36:11+08:00
@@ -13,11 +13,11 @@ resources:
   src: featured-img.webp
 
 # 标签
-tags: ["Vercel", "博客", "Cookie"]
+tags: ["Vercel", "Blog", "Cookie"]
 # 分类
-categories: ["建站"]
+categories: ["Build-Site"]
 # 系列(如果下面这一行注释掉，就不会显示系列为空了)
-series: ["小站重生记"]
+series: ["My-Blog-Reborn"]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除
