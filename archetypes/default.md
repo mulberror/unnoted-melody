@@ -6,10 +6,13 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 
+resources:
 # 文章特色图片
-featuredImage: "feature-img"
+- name: featured-image
+  src: featured-img.webp
 # 首页预览特色图片
-featuredImagePreview: "feature-img"
+- name: featured-image-preview
+  src: featured-img.webp
 
 # 标签
 tags: []

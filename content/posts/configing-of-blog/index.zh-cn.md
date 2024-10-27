@@ -6,10 +6,13 @@ date: 2024-10-27T21:17:57+08:00
 lastmod: 2024-10-27T21:17:57+08:00
 draft: true
 
+resources:
 # 文章特色图片
-featuredImage: "featured-img"
+- name: featured-image
+  src: featured-img.webp
 # 首页预览特色图片
-featuredImagePreview: "featured-img"
+- name: featured-image-preview
+  src: featured-img.webp
 
 # 标签
 tags: []

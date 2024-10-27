@@ -6,8 +6,13 @@ date: 2024-10-22T00:51:43+08:00
 lastmod: 2024-10-24T00:51:43+08:00
 draft: false
 
-featuredImage: "featured-img.webp"
-featuredImagePreview: "featured-img.webp"
+resources:
+# 文章特色图片
+- name: featured-image
+  src: featured-img.webp
+# 首页预览特色图片
+- name: featured-image-preview
+  src: featured-img.webp
 
 # 标签
 tags: ["hugo", "vercel", "Blog"]
@@ -37,10 +42,11 @@ comment:
   disqus:
     enable: false
 ---
-> [!TIP]
-> This post is an experimental post of testing the related config of English web.  
-> I just use [DeepL](https://www.deepl.com/) and [Chat-GPT](https://chat.openai.com/) translate my post from Chinese to English.  
-> I apologize if it gave you a bad reading experience.
+{{< admonition tip "" true >}}
+This post is an experimental post of testing the related config of English web.  
+I just use [DeepL](https://www.deepl.com/) and [Chat-GPT](https://chat.openai.com/) translate my post from Chinese to English.  
+I apologize if it gave you a bad reading experience.
+{{< /admonition >}}
 
 ## 1 Preface
 I've once built a blog with the Hugo framework before, using the theme PaperMod.

@@ -13,6 +13,8 @@ comment:
 ---
 ![72038523](72038523_p0.webp)
 
-> [!NOTE]
-> This about-page is written by human.
->
+{{< admonition tip "Blog Timeline" true >}}
+
+This about-page is written by human.
+
+{{< /admonition >}}

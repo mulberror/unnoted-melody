@@ -1,13 +1,16 @@
 ---
-title: "DoIt 主题在 Vercel Live 模式下遇到的一个加载问题"
+title: "DoIt 主题在 Vercel Live 模式下遇到的加载问题"
 subtitle: ""
 description: ""
 date: 2024-10-27T09:36:11+08:00
 lastmod: 2024-10-27T09:36:11+08:00
 draft: false
 
-featuredImage: "featured-img.webp"
-featuredImagePreview: "featured-img.webp"
+resources:
+- name: featured-image
+  src: featured-img.webp
+- name: featured-image-preview
+  src: featured-img.webp
 
 # 标签
 tags: ["Vercel", "博客", "Cookie"]

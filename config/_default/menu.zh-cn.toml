@@ -1,0 +1,62 @@
+
+[[main]]
+identifier = "homapage"
+pre = ""
+post = ""
+name = "首页"
+url = "/"
+title = ""
+weight = 1
+
+[[main]]
+identifier = "documentation"
+pre = ""
+name = "归档"
+url = "/posts/"
+title = ""
+weight = 2
+
+[[main]]
+identifier = "series"
+pre = ""
+post = ""
+name = "系列"
+url = "/series/"
+title = ""
+weight = 3
+
+[[main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "分类"
+url = "/categories/"
+title = ""
+weight = 5
+
+[[main]]
+identifier = "tags"
+pre = ""
+post = ""
+name = "标签"
+url = "/tags/"
+title = ""
+weight = 7
+
+[[main]]
+identifier = "friends"
+pre = ""
+post = ""
+name = "友链"
+url = "/friends"
+title = ""
+weight = 8
+
+[[main]]
+identifier = "about"
+pre = ""
+post = ""
+name = "关于"
+url = "/about/"
+title = ""
+weight = 9

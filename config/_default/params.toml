@@ -19,6 +19,7 @@ defaultTheme = "auto"
 enablePWA = false
 
 [author]
+name = "Mulberror"
 email = "mulberror@gmail.com"
 link = "https://blog.mulbx.top"
 avatar = ""
@@ -128,9 +129,7 @@ inlineRightDelimiter = ""
 # KaTeX 插件 copy_tex
 copyTex = true
 # KaTeX 插件 mhchem
-mhchem = false
-# 使用 MathJax 替代 KaTeX
-mathjax = false
+mhchem = true
 
 # DoIt 新增 | 0.2.0 Mapbox GL JS 配置
 [page.mapbox]
@@ -398,8 +397,8 @@ logoUrl = "/img/author/avatar.webp"
 # Related content config
 # 相关文章推荐配置
 [page.related]
-enable = false
-count = 5
+enable = true
+count = 3
 
 # 页面头部导航栏配置
 [header]

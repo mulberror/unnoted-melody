@@ -1,0 +1,62 @@
+
+[[main]]
+identifier = "homepage"
+pre = ""
+post = ""
+name = "Home"
+url = "/"
+title = ""
+weight = 1
+
+[[main]]
+identifier = "documentation"
+pre = ""
+name = "Archives"
+url = "/posts/"
+title = ""
+weight = 2
+
+[[main]]
+identifier = "series"
+pre = ""
+post = ""
+name = "Series"
+url = "/series/"
+title = ""
+weight = 3
+
+[[main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "Category"
+url = "/categories/"
+title = ""
+weight = 5
+
+[[main]]
+identifier = "Tags"
+pre = ""
+post = ""
+name = "Tags"
+url = "/tags/"
+title = ""
+weight = 7
+
+[[main]]
+identifier = "friends"
+pre = ""
+post = ""
+name = "Friends"
+url = "/friends"
+title = ""
+weight = 8
+
+[[main]]
+identifier = "About"
+pre = ""
+post = ""
+name = "About"
+url = "/about/"
+title = ""
+weight = 9

@@ -1,8 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>所有我的 DoIt 主题配置 - Unnoted Melody</title>
-        <link>http://localhost:1313/configing-of-blog/</link>
-        <description>所有我的 DoIt 主题配置 | Unnoted Melody</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
-            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Sun, 27 Oct 2024 21:17:57 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/configing-of-blog/" rel="self" type="application/rss+xml" /></channel>
-</rss>
