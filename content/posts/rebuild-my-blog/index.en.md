@@ -6,9 +6,8 @@ date: 2024-10-22T00:51:43+08:00
 lastmod: 2024-10-24T00:51:43+08:00
 draft: false
 
-resources:
-- name: "featured-image"
-  src: "featured-image.webp"
+featuredImage: "feature-img.webp"
+featuredImagePreview: "feature-img.webp"
 
 # 标签
 tags: ["hugo", "vercel", "Blog"]
