@@ -1,0 +1,29 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>My-Blog-Reborn - Series - Unnoted Melody</title>
+        <link>http://localhost:1313/en/series/my-blog-reborn/</link>
+        <description>My-Blog-Reborn - Series - Unnoted Melody</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mulberror@gmail.com (Mulberror)</managingEditor>
+            <webMaster>mulberror@gmail.com (Mulberror)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/en/series/my-blog-reborn/" rel="self" type="application/rss+xml" /><item>
+    <title>Reborn Blog by Hugo, Vercel and Cloudflare</title>
+    <link>http://localhost:1313/en/rebuild-my-blog/</link>
+    <pubDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</pubDate><author>
+        <name>Mulberror</name>
+    </author><guid>http://localhost:1313/en/rebuild-my-blog/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/rebuild-my-blog/featured-img.webp" referrerpolicy="no-referrer">
+            </div><div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">This post is an experimental post of testing the related config of English web.<br>
+I just use <a href="https://www.deepl.com/" target="_blank" rel="noopener noreferrer">DeepL</a> and <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">Chat-GPT</a> translate my post from Chinese to English.<br>
+I apologize if it gave you a bad reading experience.</div>
+        </div>
+    </div>
+<h2 id="1-preface" class="headerLink">
+    <a href="#1-preface" class="header-mark"></a>1 Preface</h2><p>I&rsquo;ve once built a blog with the Hugo framework before, using the theme PaperMod.</p>
+<p>But since most of the posts was lost, and I happened to come across <a href="https://thiscute.world/" target="_blank" rel="noopener noreferrer">ryan4yin</a> &rsquo;s blog, I learned about the <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer">DoIt</a> theme made by <a href="https://pcloud.dev/" target="_blank" rel="noopener noreferrer">HEIGE-PCloud</a>.</p>]]></description>
+</item></channel>
+</rss>

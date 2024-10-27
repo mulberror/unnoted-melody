@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>DoIt 主题在 Vercel Live 模式下遇到的加载问题 - Unnoted Melody</title><meta name="Description" content="Mulberror&#39;s Unnoted Melody"><meta property="og:url" content="http://localhost:1313/little-problem-in-vercellive-mode/">
+  <meta property="og:site_name" content="Unnoted Melody">
+  <meta property="og:title" content="DoIt 主题在 Vercel Live 模式下遇到的加载问题">
+  <meta property="og:description" content="1 前言书接上文，在大致完成了主题 DoIt 博客的搭建后，我将博客通过 Vercel 进行了部署。
+Vercel 是支持通过 Vercel Live 的模式帮助网站持有者来实时进行一些修改的，并且通过 Vercel 进入到的自己的网站，都默认会进入到该模式中。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-27T09:36:11+08:00">
+    <meta property="article:modified_time" content="2024-10-28T03:40:59+08:00">
+    <meta property="article:tag" content="Vercel">
+    <meta property="article:tag" content="博客">
+    <meta property="article:tag" content="Cookie">
+    <meta property="og:image" content="http://localhost:1313/little-problem-in-vercellive-mode/featured-img.webp">
+      <meta property="og:see_also" content="http://localhost:1313/rebuild-my-blog/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/little-problem-in-vercellive-mode/featured-img.webp">
+  <meta name="twitter:title" content="DoIt 主题在 Vercel Live 模式下遇到的加载问题">
+  <meta name="twitter:description" content="1 前言书接上文，在大致完成了主题 DoIt 博客的搭建后，我将博客通过 Vercel 进行了部署。
+Vercel 是支持通过 Vercel Live 的模式帮助网站持有者来实时进行一些修改的，并且通过 Vercel 进入到的自己的网站，都默认会进入到该模式中。">
+<meta name="application-name" content="Unnoted Melody">
+<meta name="apple-mobile-web-app-title" content="Unnoted Melody">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://localhost:1313/little-problem-in-vercellive-mode/" /><link rel="prev" href="http://localhost:1313/rebuild-my-blog/" /><link rel="alternate" href="/little-problem-in-vercellive-mode/index.xml" type="application/rss+xml" title="Unnoted Melody">
+    <link rel="feed" href="/little-problem-in-vercellive-mode/index.xml" type="application/rss+xml" title="Unnoted Melody"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><meta name="google-site-verification" content="MQ8DNu27ayX6B_4ObiEDK09vGr1fdy7kOAnbd09hJk4" /><meta name="baidu-site-verification" content="codeva-th8nzaQhTh" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "DoIt 主题在 Vercel Live 模式下遇到的加载问题",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/little-problem-in-vercellive-mode\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "http:\/\/localhost:1313\/little-problem-in-vercellive-mode\/featured-img.webp",
+                            "width":  1138 ,
+                            "height":  405 
+                        }],"genre": "posts","keywords": "Vercel, 博客, Cookie","wordcount":  1099 ,
+        "url": "http:\/\/localhost:1313\/little-problem-in-vercellive-mode\/","datePublished": "2024-10-27T09:36:11+08:00","dateModified": "2024-10-28T03:40:59+08:00","publisher": {
+            "@type": "Organization",
+            "name": "mulberror","logo": "http:\/\/localhost:1313\/img\/author\/avatar.webp"},"author": {
+                "@type": "Person",
+                "name": "森绪"
+            },"description": ""
+    }
+    </script><script src="//instant.page/5.1.1" defer type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Unnoted Melody"><span class="header-title-pre"><i class='far fa-edit fa-fw'></i></span><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/"> 首页 </a><a class="menu-item" href="/posts/"> 归档 </a><a class="menu-item" href="/series/"> 系列 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/friends"> 友链 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><a href="#" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" title="Select Language" id="language-select-desktop" onchange="location = this.value;"><option value="/little-problem-in-vercellive-mode/" selected>简体中文</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="#" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Unnoted Melody"><span class="header-title-pre"><i class='far fa-edit fa-fw'></i></span><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/" title="">首页</a><a class="menu-item" href="/posts/" title="">归档</a><a class="menu-item" href="/series/" title="">系列</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/friends" title="">友链</a><a class="menu-item" href="/about/" title="">关于</a><a href="#" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="#" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" title="Select Language" onchange="location = this.value;"><option value="/little-problem-in-vercellive-mode/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "false")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">DoIt 主题在 Vercel Live 模式下遇到的加载问题</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://blog.mulbx.top" title="Author" target="_blank" rel="noopener noreferrer author" class="author">森绪</a>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E5%BB%BA%E7%AB%99/"><i class="far fa-folder fa-fw"></i>建站</a></span>&nbsp;<span class="post-category">和</span>&nbsp;<span class="post-series">系列 <a href="/series/%E5%B0%8F%E7%AB%99%E9%87%8D%E7%94%9F%E8%AE%B0/"><i class="far fa-list-alt fa-fw"></i>小站重生记</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-10-27">2024-10-27</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2024-10-28">2024-10-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1099 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+        </div><div class="featured-image"><img
+        
+        loading="eager"
+        src="/little-problem-in-vercellive-mode/featured-img.webp"
+        srcset="/little-problem-in-vercellive-mode/featured-img.webp, /little-problem-in-vercellive-mode/featured-img.webp 1.5x, /little-problem-in-vercellive-mode/featured-img.webp 2x"
+        sizes="auto"
+        alt="/little-problem-in-vercellive-mode/featured-img.webp"
+        title="/little-problem-in-vercellive-mode/featured-img.webp" height="405"   width="1138" ></div><div class="details series-nav open">
+                                <div class="details-summary series-title">
+                                    <span>系列 - 小站重生记</span>
+                                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                                </div>
+                                <div class="details-content series-content">
+                                    <nav>
+                                        <ul><li><span class="active">DoIt 主题在 Vercel Live 模式下遇到的加载问题</span></li>
+                                                    <li><a href="/rebuild-my-blog/">用 Hugo &#43; Vercel 重建博客</a></li></ul>
+                                    </nav>
+                                </div>
+                            </div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-前言">1 前言</a></li>
+    <li><a href="#2-遇见的问题">2 遇见的问题</a></li>
+    <li><a href="#3-本地调试">3 本地调试</a></li>
+    <li><a href="#4-最终解决">4 最终解决</a></li>
+    <li><a href="#5-解决方案">5 解决方案</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="1-前言" class="headerLink">
+    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>书接上文，在大致完成了主题 DoIt 博客的搭建后，我将博客通过 Vercel 进行了部署。</p>
+<p>Vercel 是支持通过 Vercel Live 的模式帮助网站持有者来实时进行一些修改的，并且通过 Vercel 进入到的自己的网站，都默认会进入到该模式中。</p>
+<h2 id="2-遇见的问题" class="headerLink">
+    <a href="#2-%e9%81%87%e8%a7%81%e7%9a%84%e9%97%ae%e9%a2%98" class="header-mark"></a>2 遇见的问题</h2><figure><img src="/img/posts/little-problem-in-vercellive-mode/missing-of-js.webp" width="100%"><figcaption>
+      <h4>部分 js 文件未能加载成功</h4>
+    </figcaption>
+</figure>
+
+<p>如上图所示，左侧加载博客标题的动画和右侧搜索栏的打开都需要加载 js 文件，但是这两个部分都没有进行加载。</p>
+<p>而且更加奇怪的是，我通过 Vercel 部署的连接，也就是那个 <code>xxx.vercel.app</code> 格式的连接进入，就发现是可以正常加载的，这让我感到非常的疑惑。</p>
+<p>这里需要特别感谢我的好室友 <a href="https://mlacookie.top/" target="_blank" rel="noopener noreferrer">MLAcookie</a>，帮助我一起找到解决方法。</p>
+<p>一开始我们觉得这个是 cdn 缓存的问题，但是在 <a href="https://mlacookie.top/" target="_blank" rel="noopener noreferrer">MLAcookie</a> 和另外一个室友的电脑上用相同的环境进行访问后，发现他们都加载成功了。后来查看了请求到的文件，发现浏览器已经请求到了对应的 js 文件。</p>
+<figure><img src="/img/posts/little-problem-in-vercellive-mode/js-loaded-in-local.webp" width="100%"><figcaption>
+      <h4>本地已请求到打印动画的 js 文件</h4>
+    </figcaption>
+</figure>
+
+<p>所以就基本排除是 cdn 缓存的问题，我们将下一个目标锁定在本地加载的过程中出现异常。</p>
+<h2 id="3-本地调试" class="headerLink">
+    <a href="#3-%e6%9c%ac%e5%9c%b0%e8%b0%83%e8%af%95" class="header-mark"></a>3 本地调试</h2><p>我和室友那首先对比了一下请求到的文件，发现两边请求到的文件有较大的差异，经过多次比对和拒绝某些特定文件的请求后发现，这些多出来的文件主要是来自 <code>rocket-loader.js</code> 调用的 <code>feedback.js</code> 这个文件中的请求。</p>
+<p>在控制台给请求到的网页文件打了端点，本地的加载在 <code>liveload.js</code> 这个地方抛出了异常。经过逐步运行确定该错误最终来自 <code>vercel-live</code> 模块的调用，为一个神秘的反复调用本地栈空间导致的爆栈错误，不过由于对该方面的知识欠缺，所以更加原理的问题并没有理解。</p>
+<figure><img src="/img/posts/little-problem-in-vercellive-mode/liveload-error.webp" width="100%"><figcaption>
+      <h4>本地渲染时抛出的异常</h4>
+    </figcaption>
+</figure>
+
+<p>所以大致可以确定问题就是 Vercel Live 模式本地出现了一些神秘的问题，导致最后页面没有正确地渲染出来。</p>
+<h2 id="4-最终解决" class="headerLink">
+    <a href="#4-%e6%9c%80%e7%bb%88%e8%a7%a3%e5%86%b3" class="header-mark"></a>4 最终解决</h2><p>我换了一台全新的电脑，并没有从 Vercel 进入到部署的博客中，而是进行直连，上述问题就不存在了。</p>
+<p>回到我一开始的电脑，我尝试退出 Vercel 能不能一样解决问题。不过不幸的是 js 加载依旧未成功，页面中悬停着 Vercel Live 的评论相关按键，我还是通过该模式进行页面的访问。</p>
+<p>查看了本地 Cookie 情况，可以发现在退出登录的情况下，部署的项目还是通过本地的 Cookie 识别并启动了 Live 模式。</p>
+<figure><img src="/img/posts/little-problem-in-vercellive-mode/cookie.webp" width="100%"><figcaption>
+      <h4>部署项目通过本地 Cookie 启动 Vercel Live 模式</h4>
+    </figcaption>
+</figure>
+
+<p>不过经过尝试，无法直接通过阻止使用该 Cookie 来解决问题，主题依旧会因为抛出异常而停止加载。</p>
+<figure><img src="/img/posts/little-problem-in-vercellive-mode/blocking-cookie-error.webp" width="100%"><figcaption>
+      <h4>直接阻止 Cookie 导致错误</h4>
+    </figcaption>
+</figure>
+
+<p>以上主题亮暗色调节的部分需要读取 Cookie 的数据，如果直接阻止 Cookie 会导致上图代码中的第 16 行判断 <code>localStorage</code> 存在，但是因为无法读取而导致了错误。</p>
+<h2 id="5-解决方案" class="headerLink">
+    <a href="#5-%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" class="header-mark"></a>5 解决方案</h2><p>如果你也遇到了该问题，可以通过删除<strong>本网站的</strong>的 Cookie 解决，这个方法在每一次通过 Vercel 访问博客的时候都需要实施一次，虽然不会造成什么问题但显得非常的麻烦。</p>
+<figure><img src="/img/posts/little-problem-in-vercellive-mode/delete-cookie.webp" width="70%"><figcaption>
+      <h4>删除本网站的 Cookie</h4>
+    </figcaption>
+</figure>
+
+<p>Vercel 本身的功能已经足够强大并且稳定了，所以第一次从 github 导入项目后就可以直接不用管 Vercel 了。</p>
+<p>不想用这么麻烦的方法的话，我还是建议不要通过 Vercel 进入，直接用域名进入罢 OvO。</p>
+</div>
+
+        
+
+
+<h2>相关内容</h2>
+<div class="related-container">
+    <div class="related-item-container">
+            <div class="related-image">
+                <a href="/rebuild-my-blog/"><img
+        
+        loading="lazy"
+        src="/rebuild-my-blog/featured-img.webp"
+        srcset="/rebuild-my-blog/featured-img.webp, /rebuild-my-blog/featured-img.webp 1.5x, /rebuild-my-blog/featured-img.webp 2x"
+        sizes="auto"
+        alt="/rebuild-my-blog/featured-img.webp"
+        title="/rebuild-my-blog/featured-img.webp" height="200"   width="400" ></a>
+            </div><h2 class="related-title">
+                <a href="/rebuild-my-blog/">用 Hugo &#43; Vercel 重建博客</a>
+            </h2>
+        </div>
+    
+
+</div>
+
+<div class="sponsor">
+        <div class="sponsor-avatar"></div><p class="sponsor-bio"><em>如果觉得我的文章有帮助，欢迎赠我一杯免费的咖啡~</em></p><a href="" title="Sponsor" target="_blank" class="sponsor-button" rel="noopener noreferrer">
+                <i class="far fa-heart fa-fw icon" style="color: #ec6cb9;"></i>
+                <span>赞赏</span>
+            </a></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2024-10-28</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="#" title="分享到 Twitter" data-sharer="twitter" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-title="DoIt 主题在 Vercel Live 模式下遇到的加载问题" data-hashtags="Vercel,博客,Cookie"><i class="fab fa-twitter fa-fw"></i></a><a href="#" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-hashtag="Vercel"><i class="fab fa-facebook-square fa-fw"></i></a><a href="#" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-title="DoIt 主题在 Vercel Live 模式下遇到的加载问题" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="#" title="分享到 Line" data-sharer="line" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-title="DoIt 主题在 Vercel Live 模式下遇到的加载问题"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="#" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-title="DoIt 主题在 Vercel Live 模式下遇到的加载问题"><i class="fab fa-weibo fa-fw"></i></a><a href="#" title="分享到 Myspace" data-sharer="myspace" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-title="DoIt 主题在 Vercel Live 模式下遇到的加载问题" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="#" title="分享到 Blogger" data-sharer="blogger" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-title="DoIt 主题在 Vercel Live 模式下遇到的加载问题" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="#" title="分享到 Evernote" data-sharer="evernote" data-url="http://localhost:1313/little-problem-in-vercellive-mode/" data-title="DoIt 主题在 Vercel Live 模式下遇到的加载问题"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/vercel/">Vercel</a>,&nbsp;<a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>,&nbsp;<a href="/tags/cookie/">Cookie</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/rebuild-my-blog/" class="prev" rel="prev" title="用 Hugo &#43; Vercel 重建博客"><i class="fas fa-angle-left fa-fw"></i>用 Hugo &#43; Vercel 重建博客</a></div>
+</div>
+<div id="comments"><div id="utterances"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.136.3">Hugo</a> 强力驱动&nbsp;|&nbsp;托管在 <a title="Vercel" href="https://vercel.com/" target="_blank" rel="noopener noreffer">Vercel</a> 上&nbsp;|&nbsp;主题 - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.3.0"><i class="far fa-edit fa-fw"></i> DoIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://blog.mulbx.top" target="_blank" rel="noopener noreferrer">森绪</a></span>&nbsp;|&nbsp;<span class="license">      <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+    </span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div class="assets"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.css">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"></noscript><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"mulberror/blog-comments"}},"data":{"desktop-header-typeit":"未定的旋律\r\n","mobile-header-typeit":"未定的旋律\r\n"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":1000,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/utterances.min.js" defer></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.js" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.js" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+</body>
+
+</html>

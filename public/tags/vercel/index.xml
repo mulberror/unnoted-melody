@@ -1,0 +1,30 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Vercel - 标签 - Unnoted Melody</title>
+        <link>http://localhost:1313/tags/vercel/</link>
+        <description>Vercel - 标签 - Unnoted Melody</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
+            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Sun, 27 Oct 2024 09:36:11 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/vercel/" rel="self" type="application/rss+xml" /><item>
+    <title>DoIt 主题在 Vercel Live 模式下遇到的加载问题</title>
+    <link>http://localhost:1313/little-problem-in-vercellive-mode/</link>
+    <pubDate>Sun, 27 Oct 2024 09:36:11 &#43;0800</pubDate><author>
+        <name>森绪</name>
+    </author><guid>http://localhost:1313/little-problem-in-vercellive-mode/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/little-problem-in-vercellive-mode/featured-img.webp" referrerpolicy="no-referrer">
+            </div><h2 id="1-前言" class="headerLink">
+    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>书接上文，在大致完成了主题 DoIt 博客的搭建后，我将博客通过 Vercel 进行了部署。</p>
+<p>Vercel 是支持通过 Vercel Live 的模式帮助网站持有者来实时进行一些修改的，并且通过 Vercel 进入到的自己的网站，都默认会进入到该模式中。</p>]]></description>
+</item><item>
+    <title>用 Hugo &#43; Vercel 重建博客</title>
+    <link>http://localhost:1313/rebuild-my-blog/</link>
+    <pubDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</pubDate><author>
+        <name>森绪</name>
+    </author><guid>http://localhost:1313/rebuild-my-blog/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/rebuild-my-blog/featured-img.webp" referrerpolicy="no-referrer">
+            </div><h2 id="1-前言" class="headerLink">
+    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>我之前也是用 Hugo 框架搭建的博客，使用的主题是 PaperMod。</p>
+<p>不过因为大部分存货都丢失了，再加上碰巧见看到了 <a href="https://thiscute.world/" target="_blank" rel="noopener noreferrer">ryan4yin</a> 大佬的博客，从而了解到了 <a href="https://pcloud.dev/" target="_blank" rel="noopener noreferrer">HEIGE-PCloud</a> 大佬制作的 <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer">DoIt</a> 主题。</p>]]></description>
+</item></channel>
+</rss>
