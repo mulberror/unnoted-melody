@@ -5,7 +5,7 @@
         <description>博客 - 标签 - Unnoted Melody</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
             <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Sun, 27 Oct 2024 09:36:11 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
-    <title>Vercel Live 模式下遇到的一个加载问题</title>
+    <title>DoIt 主题在 Vercel Live 模式下遇到的一个加载问题</title>
     <link>http://localhost:1313/little-problem-in-vercellive-mode/</link>
     <pubDate>Sun, 27 Oct 2024 09:36:11 &#43;0800</pubDate><author>
         <name>森绪</name>
@@ -13,7 +13,7 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/little-problem-in-vercellive-mode/featured-img.webp" referrerpolicy="no-referrer">
             </div><h2 id="1-前言" class="headerLink">
-    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>书接上文，在大致完成了博客的重建后，我将博客通过 Vercel 进行了部署。</p>
+    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>书接上文，在大致完成了主题 DoIt 博客的搭建后，我将博客通过 Vercel 进行了部署。</p>
 <p>Vercel 是支持通过 Vercel Live 的模式帮助网站持有者来实时进行一些修改的，并且通过 Vercel 进入到的自己的网站，都默认会进入到该模式中。</p>]]></description>
 </item><item>
     <title>用 Hugo &#43; Vercel 重建博客</title>

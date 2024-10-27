@@ -30,6 +30,8 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/categories/"
                     /></url><url>
+            <loc>http://localhost:1313/tags/cookie/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/little-problem-in-vercellive-mode/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/series/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -57,7 +59,6 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/tags/vercel/"
                     /></url><url>
-            <loc>http://localhost:1313/little-problem-in-vercellive-mode/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/categories/%E5%BB%BA%E7%AB%99/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/series/%E5%B0%8F%E7%AB%99%E9%87%8D%E7%94%9F%E8%AE%B0/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
