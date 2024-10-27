@@ -10,7 +10,7 @@ keywords = [
   "莫柏瑞",
   "Full-Stack",
   "Computer Science",
-  "Mathematics"
+  "Mathematics",
 ]
 
 # 网站默认主题样式 ("light", "dark", "auto")
@@ -204,7 +204,7 @@ minMatchCharLength = 2
 findAllMatches = false
 location = 0
 threshold = 0.3
-distance = 1000 # 爬取文章前多少内容
+distance = 1000           # 爬取文章前多少内容
 ignoreLocation = false
 useExtendedSearch = false
 ignoreFieldNorm = false
@@ -312,14 +312,14 @@ enable = false
 envId = "https://twikoo-comments-doit.vercel.app/"
 region = ""
 path = ""
-cloudbase = true # boolean : true / false. # 是否部署在腾讯云 CloudBase
+cloudbase = true                                   # boolean : true / false. # 是否部署在腾讯云 CloudBase
 visitor = true
 commentCount = true
 # Vssue comment config (https://vssue.js.org//)
 # Vssue comment 评论系统设置 (https://vssue.js.org//)
 [page.comment.vssue]
 enable = false
-platform = "" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+platform = ""     # ("bitbucket", "gitea", "gitee", "github", "gitlab")
 owner = ""
 repo = ""
 clientId = ""
@@ -456,3 +456,12 @@ license = """
 id = "G-BSBYR0BB64"
 # 是否匿名化用户 IP
 anonymizeIP = true
+
+[verification]
+google = "MQ8DNu27ayX6B_4ObiEDK09vGr1fdy7kOAnbd09hJk4"
+bing = ""
+yandex = ""
+pinterest = ""
+baidu = "codeva-th8nzaQhTh"
+so = ""
+sogou = ""
