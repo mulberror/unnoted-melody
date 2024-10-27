@@ -5,9 +5,9 @@ import algoliasearch from 'algoliasearch';
 // import algoliasearch from 'algoliasearch/lite';
 
 const client = algoliasearch('MXP1WFVWGE', '2eb8acc230f7fde7375935e999726a22');
-const index = client.initIndex('zh_index');
+const index = client.initIndex('en_index');
 
-import indexJson from "./public/index.json" assert { type: "json" };
+import indexJson from "./public/en/index.json" assert { type: "json" };
 
 index.saveObjects(indexJson, {
     autoGenerateObjectIDIfNotExist: true
