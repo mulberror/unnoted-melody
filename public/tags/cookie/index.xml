@@ -12,15 +12,8 @@
     </author><guid>http://localhost:1313/little-problem-in-vercellive-mode/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/little-problem-in-vercellive-mode/featured-img.webp" referrerpolicy="no-referrer">
-            </div><h2 id="1-preface" class="headerLink">
-    <a href="#1-preface" class="header-mark"></a>1 Preface</h2><p>Continuing from the previous section, after roughly completing the setup of the DoIt blog, I deployed the blog using Vercel.</p>
-<p>Vercel supports a Live mode that allows website owners to make real-time modifications, and any website accessed through Vercel will automatically enter this mode.</p>
-<h2 id="2-problems-encountered" class="headerLink">
-    <a href="#2-problems-encountered" class="header-mark"></a>2 Problems Encountered</h2><figure><figcaption>
-      <h4>Some JS files failed to load</h4>
-    </figcaption>
-</figure>
-
-<p>As shown in the image, the animation for loading the blog title on the left and the opening of the search bar on the right require loading JS files, but neither of these components loaded successfully.</p>]]></description>
+            </div><h2 id="1-前言" class="headerLink">
+    <a href="#1-%e5%89%8d%e8%a8%80" class="header-mark"></a>1 前言</h2><p>书接上文，在大致完成了主题 DoIt 博客的搭建后，我将博客通过 Vercel 进行了部署。</p>
+<p>Vercel 是支持通过 Vercel Live 的模式帮助网站持有者来实时进行一些修改的，并且通过 Vercel 进入到的自己的网站，都默认会进入到该模式中。</p>]]></description>
 </item></channel>
 </rss>

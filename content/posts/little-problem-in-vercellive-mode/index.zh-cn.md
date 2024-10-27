@@ -41,57 +41,57 @@ comment:
     enable: false
 ---
 
-## 1 Preface
-Continuing from the previous section, after roughly completing the setup of the DoIt blog, I deployed the blog using Vercel.
+## 1 前言
+书接上文，在大致完成了主题 DoIt 博客的搭建后，我将博客通过 Vercel 进行了部署。
 
-Vercel supports a Live mode that allows website owners to make real-time modifications, and any website accessed through Vercel will automatically enter this mode.
+Vercel 是支持通过 Vercel Live 的模式帮助网站持有者来实时进行一些修改的，并且通过 Vercel 进入到的自己的网站，都默认会进入到该模式中。
 
-## 2 Problems Encountered
+## 2 遇见的问题
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/missing-of-js.webp" title="Some JS files failed to load" width="100%">}}
+{{<figure src="/img/posts/little-problem-in-vercellive-mode/missing-of-js.webp" title="部分 js 文件未能加载成功" width="100%">}}
 
-As shown in the image, the animation for loading the blog title on the left and the opening of the search bar on the right require loading JS files, but neither of these components loaded successfully.
+如上图所示，左侧加载博客标题的动画和右侧搜索栏的打开都需要加载 js 文件，但是这两个部分都没有进行加载。
 
-Moreover, it was even stranger that when accessing the blog through the Vercel deployment link (in the format of `xxx.vercel.app`), everything loaded correctly, which left me puzzled.
+而且更加奇怪的是，我通过 Vercel 部署的连接，也就是那个 `xxx.vercel.app` 格式的连接进入，就发现是可以正常加载的，这让我感到非常的疑惑。
 
-I would like to especially thank my good roommate [MLAcookie](https://mlacookie.top/) for helping me find a solution.
+这里需要特别感谢我的好室友 [MLAcookie](https://mlacookie.top/)，帮助我一起找到解决方法。
 
-Initially, we thought this might be a CDN caching issue. However, when [MLAcookie](https://mlacookie.top/) and another roommate accessed the blog using the same environment, they successfully loaded everything. After checking the requested files, we found that the browser had indeed requested the corresponding JS files.
+一开始我们觉得这个是 cdn 缓存的问题，但是在 [MLAcookie](https://mlacookie.top/) 和另外一个室友的电脑上用相同的环境进行访问后，发现他们都加载成功了。后来查看了请求到的文件，发现浏览器已经请求到了对应的 js 文件。
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/js-loaded-in-local.webp" title="JS files requested locally" width="100%">}}
+{{<figure src="/img/posts/little-problem-in-vercellive-mode/js-loaded-in-local.webp" title="本地已请求到打印动画的 js 文件" width="100%">}}
 
-Thus, we could rule out CDN caching as the problem, and our next target was to identify where the loading process locally was failing.
+所以就基本排除是 cdn 缓存的问题，我们将下一个目标锁定在本地加载的过程中出现异常。
 
-## 3 Local Debugging
-My roommate and I first compared the requested files and noticed significant differences. After several rounds of comparison and rejecting specific file requests, we found that the extra files were mainly being called by `rocket-loader.js`, specifically from a request in `feedback.js`.
+## 3 本地调试
+我和室友那首先对比了一下请求到的文件，发现两边请求到的文件有较大的差异，经过多次比对和拒绝某些特定文件的请求后发现，这些多出来的文件主要是来自 `rocket-loader.js` 调用的 `feedback.js` 这个文件中的请求。
 
-By inspecting the webpage files in the console, we discovered that the local loading threw an exception in `liveload.js`. After gradually running through the code, we identified that the error ultimately stemmed from the `vercel-live` module, leading to a mysterious stack overflow error due to repeated calls in the local stack space. However, due to my lack of knowledge in this area, I couldn't fully understand the underlying principles.
+在控制台给请求到的网页文件打了端点，本地的加载在 `liveload.js` 这个地方抛出了异常。经过逐步运行确定该错误最终来自 `vercel-live` 模块的调用，为一个神秘的反复调用本地栈空间导致的爆栈错误，不过由于对该方面的知识欠缺，所以更加原理的问题并没有理解。
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/liveload-error.webp" title="Exception thrown during local rendering" width="100%">}}
+{{<figure src="/img/posts/little-problem-in-vercellive-mode/liveload-error.webp" title="本地渲染时抛出的异常" width="100%">}}
 
-Thus, we could roughly determine that the issue was a mysterious problem in Vercel Live mode locally, causing the page to fail to render correctly.
+所以大致可以确定问题就是 Vercel Live 模式本地出现了一些神秘的问题，导致最后页面没有正确地渲染出来。
 
-## 4 Final Resolution
-I switched to a completely new computer and accessed the blog directly instead of through Vercel, and the above issue was resolved.
+## 4 最终解决
+我换了一台全新的电脑，并没有从 Vercel 进入到部署的博客中，而是进行直连，上述问题就不存在了。
 
-Returning to my original computer, I attempted to log out of Vercel to see if that would solve the problem. Unfortunately, the JS still failed to load, and the Vercel Live comment buttons remained hovering on the page, as I was still accessing the page through that mode.
+回到我一开始的电脑，我尝试退出 Vercel 能不能一样解决问题。不过不幸的是 js 加载依旧未成功，页面中悬停着 Vercel Live 的评论相关按键，我还是通过该模式进行页面的访问。
 
-Checking the local cookie situation, I found that even when logged out, the deployed project still recognized and activated Live mode through local cookies.
+查看了本地 Cookie 情况，可以发现在退出登录的情况下，部署的项目还是通过本地的 Cookie 识别并启动了 Live 模式。
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/cookie.webp" title="Deployed project activates Vercel Live mode through local cookies" width="100%">}}
+{{<figure src="/img/posts/little-problem-in-vercellive-mode/cookie.webp" title="部署项目通过本地 Cookie 启动 Vercel Live 模式" width="100%">}}
 
-However, I found it impossible to directly block the use of this cookie to resolve the issue; the theme still failed to load due to the thrown exception.
+不过经过尝试，无法直接通过阻止使用该 Cookie 来解决问题，主题依旧会因为抛出异常而停止加载。
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/blocking-cookie-error.webp" title="Directly blocking the cookie leads to errors" width="100%">}}
+{{<figure src="/img/posts/little-problem-in-vercellive-mode/blocking-cookie-error.webp" title="直接阻止 Cookie 导致错误" width="100%">}}
 
-The dark-light toggle part of the theme needs to read data from the cookie. Directly blocking the cookie causes the check in line 16 of the code to fail, leading to errors because it cannot read `localStorage`.
+以上主题亮暗色调节的部分需要读取 Cookie 的数据，如果直接阻止 Cookie 会导致上图代码中的第 16 行判断 `localStorage` 存在，但是因为无法读取而导致了错误。
 
-## 5 Solution
+## 5 解决方案
 
-If you encounter this problem, you can resolve it by deleting **the cookies for this site**. This method needs to be implemented each time you access the blog through Vercel, which, while not problematic, is quite cumbersome.
+如果你也遇到了该问题，可以通过删除**本网站的**的 Cookie 解决，这个方法在每一次通过 Vercel 访问博客的时候都需要实施一次，虽然不会造成什么问题但显得非常的麻烦。
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/delete-cookie.webp" title="Delete the cookies for this site" width="70%">}}
+{{<figure src="/img/posts/little-problem-in-vercellive-mode/delete-cookie.webp" title="删除本网站的 Cookie" width="70%">}}
 
-Vercel's functionality is already robust and stable, so once you import your project from GitHub, you can typically proceed without needing to interact with Vercel further.
+Vercel 本身的功能已经足够强大并且稳定了，所以第一次从 github 导入项目后就可以直接不用管 Vercel 了。
 
-If you want to avoid this cumbersome method, I recommend accessing the blog directly through its domain instead of going through Vercel. OvO
+不想用这么麻烦的方法的话，我还是建议不要通过 Vercel 进入，直接用域名进入罢 OvO。
