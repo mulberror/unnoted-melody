@@ -85,3 +85,12 @@ Log in to Vercel with your GitHub account or register a Vercel account and link 
 {{<figure src="/img/posts/rebuild-my-blog/choose-hugo.webp" title="Choosing the Hugo framework" width="90%">}}
 
 After importing, the project in Vercel is connected to the selected GitHub repository. As long as you commit once locally, the project in Vercel will be redeployed.
+
+And each hosted project is given a separate url to connect to, so that it is easy to resolve your own domain name.
+
+## 4 Summary
+I was going to write a paragraph on how to configure Cloudflare, but it's actually quite magical, thanks to my roommate. But it was quite a magical process, thanks to my roommate.
+
+I'm going to write about this experience and some of the problems I encountered in configuring the blog in a separate post.
+
+Translated with DeepL.com (free version)
