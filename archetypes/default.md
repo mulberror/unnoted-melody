@@ -6,9 +6,10 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 
-resources:
-- name: "featured-image"
-  src: "featured-image.webp"
+# 文章特色图片
+featuredImage: "feature-img"
+# 首页预览特色图片
+featuredImagePreview: "feature-img"
 
 # 标签
 tags: []
