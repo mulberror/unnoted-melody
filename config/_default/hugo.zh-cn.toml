@@ -20,8 +20,8 @@ name = """
 [params.sponsor]
 enable = true
 bio = "如果觉得我的文章有帮助，欢迎赠我一杯免费的咖啡~"
-link = "" # 你的赞赏页面的地址
-custom = "" # 自定义 HTML
+link = ""                        # 你的赞赏页面的地址
+custom = ""                      # 自定义 HTML
 
 [params.home.profile]
 enable = true
@@ -61,6 +61,14 @@ name = "首页"
 url = "/"
 title = ""
 weight = 1
+
+[[menu.main]]
+identifier = "documentation"
+pre = ""
+name = "归档"
+url = "/posts/"
+title = ""
+weight = 2
 
 [[menu.main]]
 identifier = "series"
