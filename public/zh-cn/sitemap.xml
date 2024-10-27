@@ -2,6 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-27T21:17:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/posts/"
+                    /></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-10-27T21:17:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/"
+                    /></url><url>
+            <loc>http://localhost:1313/configing-of-blog/</loc><lastmod>2024-10-27T21:17:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/categories/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -10,15 +29,6 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="http://localhost:1313/categories/"
-                    /></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://localhost:1313/posts/"
                     /></url><url>
             <loc>http://localhost:1313/series/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -37,15 +47,6 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="http://localhost:1313/tags/"
-                    /></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://localhost:1313/"
                     /></url><url>
             <loc>http://localhost:1313/tags/vercel/</loc><lastmod>2024-10-27T09:36:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"

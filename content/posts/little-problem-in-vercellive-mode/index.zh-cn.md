@@ -6,8 +6,8 @@ date: 2024-10-27T09:36:11+08:00
 lastmod: 2024-10-27T09:36:11+08:00
 draft: true
 
-featuredImage: "feature-img.webp"
-featuredImagePreview: "feature-img.webp"
+featuredImage: "featured-img.webp"
+featuredImagePreview: "featured-img.webp"
 
 # 标签
 tags: ["Vercel", "博客"]
