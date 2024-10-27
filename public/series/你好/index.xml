@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>你好 - 系列 - Unnoted Melody</title>
+        <link>http://localhost:1313/series/%E4%BD%A0%E5%A5%BD/</link>
+        <description>你好 - 系列 - Unnoted Melody</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
+            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Sun, 27 Oct 2024 21:17:57 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/series/%E4%BD%A0%E5%A5%BD/" rel="self" type="application/rss+xml" /><item>
+    <title>我的 DoIt 主题配置</title>
+    <link>http://localhost:1313/configing-of-blog/</link>
+    <pubDate>Sun, 27 Oct 2024 21:17:57 &#43;0800</pubDate><author>
+        <name>森绪</name>
+    </author><guid>http://localhost:1313/configing-of-blog/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="featured-img" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item></channel>
+</rss>
