@@ -10,7 +10,7 @@ keywords = [
   "莫柏瑞",
   "Full-Stack",
   "Computer Science",
-  "Mathematics",
+  "Mathematics"
 ]
 
 # 网站默认主题样式 ("light", "dark", "auto")
@@ -182,8 +182,8 @@ Mastodon = false
 
 [search]
 enable = true
-# 搜索引擎的类型 ("algolia", "fuse")
-type = "fuse"
+# 搜索引擎的类型 ("lunr", "algolia")
+type = "algolia"
 # 文章内容最长索引长度
 contentLength = 4000
 # 搜索框的占位提示语
@@ -196,17 +196,10 @@ snippetLength = 50
 highlightTag = "em"
 # DoIt 新增 | 0.2.4 是否在搜索索引中使用基于 baseURL 的绝对路径
 absoluteURL = false
-[search.fuse]
-# DoIt 新增 | 0.2.12 https://fusejs.io/api/options.html
-isCaseSensitive = false
-minMatchCharLength = 2
-findAllMatches = false
-location = 0
-threshold = 0.3
-distance = 1000           # 爬取文章前多少内容
-ignoreLocation = false
-useExtendedSearch = false
-ignoreFieldNorm = false
+[search.algolia]
+index = "mulbx_blog"
+appID = "MXP1WFVWGE"
+searchKey = "2eb8acc230f7fde7375935e999726a22"
 
 # Comment config
 # 评论系统设置
@@ -311,14 +304,14 @@ enable = false
 envId = "https://twikoo-comments-doit.vercel.app/"
 region = ""
 path = ""
-cloudbase = true                                   # boolean : true / false. # 是否部署在腾讯云 CloudBase
+cloudbase = true # boolean : true / false. # 是否部署在腾讯云 CloudBase
 visitor = true
 commentCount = true
 # Vssue comment config (https://vssue.js.org//)
 # Vssue comment 评论系统设置 (https://vssue.js.org//)
 [page.comment.vssue]
 enable = false
-platform = ""     # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+platform = "" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
 owner = ""
 repo = ""
 clientId = ""

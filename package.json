@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "algoliasearch": "^4.12.1"
+  }
+}
