@@ -2,114 +2,114 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/en/friends/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/friends/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/friends/"
+                        href="http://localhost:63783/friends/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/friends/"
+                    href="http://localhost:63783/en/friends/"
                     /></url><url>
-            <loc>http://localhost:1313/en/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/"
+                        href="http://localhost:63783/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/"
+                    href="http://localhost:63783/en/"
                     /></url><url>
-            <loc>http://localhost:1313/en/about/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/about/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/about/"
+                        href="http://localhost:63783/about/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/about/"
+                    href="http://localhost:63783/en/about/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/blog/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/en/categories/build-site/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/en/categories/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/tags/blog/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:63783/en/categories/build-site/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:63783/en/categories/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/categories/"
+                        href="http://localhost:63783/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/categories/"
+                    href="http://localhost:63783/en/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/hugo/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/tags/hugo/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/tags/hugo/"
+                        href="http://localhost:63783/tags/hugo/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/tags/hugo/"
+                    href="http://localhost:63783/en/tags/hugo/"
                     /></url><url>
-            <loc>http://localhost:1313/en/series/my-blog-reborn/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/en/posts/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/series/my-blog-reborn/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:63783/en/posts/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/posts/"
+                        href="http://localhost:63783/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/posts/"
+                    href="http://localhost:63783/en/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/en/rebuild-my-blog/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/rebuild-my-blog/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/rebuild-my-blog/"
+                        href="http://localhost:63783/rebuild-my-blog/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/rebuild-my-blog/"
+                    href="http://localhost:63783/en/rebuild-my-blog/"
                     /></url><url>
-            <loc>http://localhost:1313/en/series/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/series/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/series/"
+                        href="http://localhost:63783/series/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/series/"
+                    href="http://localhost:63783/en/series/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/tags/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/tags/"
+                        href="http://localhost:63783/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/tags/"
+                    href="http://localhost:63783/en/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/en/tags/vercel/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/tags/vercel/</loc><lastmod>2024-10-28T03:40:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/tags/vercel/"
+                        href="http://localhost:63783/tags/vercel/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/tags/vercel/"
+                    href="http://localhost:63783/en/tags/vercel/"
                     /></url><url>
-            <loc>http://localhost:1313/en/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://localhost:63783/en/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/authors/"
+                        href="http://localhost:63783/authors/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/authors/"
+                    href="http://localhost:63783/en/authors/"
                     /></url><url>
-            <loc>http://localhost:1313/en/archives/</loc><lastmod>2024-10-28T01:20:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://localhost:63783/en/archives/</loc><lastmod>2024-10-28T01:20:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="http://localhost:1313/archives/"
+                        href="http://localhost:63783/archives/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="http://localhost:1313/en/archives/"
+                    href="http://localhost:63783/en/archives/"
                     /></url></urlset>

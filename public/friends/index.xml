@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>友链 on Unnoted Melody</title>
-    <link>http://localhost:1313/friends/</link>
+    <link>http://localhost:63783/friends/</link>
     <description>Recent content in 友链 on Unnoted Melody</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <managingEditor>mulberror@gmail.com (森绪)</managingEditor>
     <webMaster>mulberror@gmail.com (森绪)</webMaster>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/friends/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63783/friends/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有用 Hugo &#43; Vercel 重建博客 - Unnoted Melody</title>
-        <link>http://localhost:1313/rebuild-my-blog/</link>
+        <link>http://localhost:63783/rebuild-my-blog/</link>
         <description>所有用 Hugo &#43; Vercel 重建博客 | Unnoted Melody</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
-            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/rebuild-my-blog/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:63783/rebuild-my-blog/" rel="self" type="application/rss+xml" /></channel>
 </rss>
