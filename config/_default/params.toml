@@ -114,11 +114,11 @@ license = '<a rel="license external nofollow noopener noreferrer" href="https://
 # 是否显示原始 Markdown 文档内容的链接
 linkToMarkdown = true
 # FixIt 0.3.0 | 新增 是否显示查看文章源码的链接
-linkToSource = true
+linkToSource = false
 # FixIt 0.3.0 | 新增 是否显示编辑文章的链接
-linkToEdit = true
+linkToEdit = false
 # FixIt 0.3.0 | 新增 是否显示报告文章问题的链接
-linkToReport = true
+linkToReport = false
 # FixIt 0.3.10 | 更改 页面样式 ["narrow", "normal", "wide", ...]
 pageStyle = "narrow"
 # FixIt 0.2.17 | 更改 开启自动书签支持

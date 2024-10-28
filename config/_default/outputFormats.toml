@@ -1,12 +1,38 @@
 # Options to make output .md files
 # 用于输出 Markdown 格式文档的设置
 
-[MarkDown]
+[archives]
+path = "archives"
+baseName = "index"
+mediaType = "text/html"
+isPlainText = false
+isHTML = true
+permalinkable = true
+# FixIt 0.3.0 | 新增 用于输出 /offline/index.html 文件的设置
+[offline]
+path = "offline"
+baseName = "index"
+mediaType = "text/html"
+isPlainText = false
+isHTML = true
+permalinkable = true
+# FixIt 0.3.0 | 新增 用于输出 readme.md 文件的设置
+[readme]
+baseName = "readme"
+mediaType = "text/markdown"
+isPlainText = true
+isHTML = false
+# FixIt 0.3.0 | 更改 用于输出 baidu_urls.txt 文件的设置
+[baidu_urls]
+baseName = "baidu_urls"
 mediaType = "text/plain"
 isPlainText = true
 isHTML = false
-
-[JsonFeed]
-mediaType = "application/feed+json"
+# FixIt 0.3.10 | 新增 用于输出 search.json 文件的设置
+[search]
+baseName = "search"
+mediaType = "application/json"
+rel = "search"
 isPlainText = true
-notAlternative = true
+isHTML = false
+permalinkable = true
