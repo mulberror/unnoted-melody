@@ -6,8 +6,11 @@ date: 2024-10-27T09:36:11+08:00
 lastmod: 2024-10-27T09:36:11+08:00
 draft: false
 
-featured-image: "featured-img.webp"
-featured-image-preview: "featured-img.webp"
+resources:
+- name: featured-image
+  src: featured-img.webp
+- name: featured-image-preview
+  src: featured-img.webp
 
 # 标签
 tags: ["Vercel", "Blog", "Cookie"]
