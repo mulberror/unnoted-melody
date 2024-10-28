@@ -3,12 +3,11 @@
         <title>Hugo - 标签 - Unnoted Melody</title>
         <link>http://localhost:1313/tags/hugo/</link>
         <description>Hugo - 标签 - Unnoted Melody</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mulberror@gmail.com (森绪)</managingEditor>
-            <webMaster>mulberror@gmail.com (森绪)</webMaster><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>用 Hugo &#43; Vercel 重建博客</title>
     <link>http://localhost:1313/rebuild-my-blog/</link>
     <pubDate>Tue, 22 Oct 2024 00:51:43 &#43;0800</pubDate><author>
-        <name>森绪</name>
+        <name>作者</name>
     </author><guid>http://localhost:1313/rebuild-my-blog/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/rebuild-my-blog/featured-img.webp" referrerpolicy="no-referrer">

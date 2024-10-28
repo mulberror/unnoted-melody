@@ -20,15 +20,6 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/friends/"
                     /></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-28T06:02:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://localhost:1313/posts/"
-                    /></url><url>
             <loc>http://localhost:1313/categories/</loc><lastmod>2024-10-28T06:02:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -55,6 +46,15 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="http://localhost:1313/little-problem-in-vercellive-mode/"
+                    /></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-28T06:02:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/posts/"
                     /></url><url>
             <loc>http://localhost:1313/series/</loc><lastmod>2024-10-28T06:02:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"

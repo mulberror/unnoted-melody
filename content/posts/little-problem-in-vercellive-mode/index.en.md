@@ -6,11 +6,8 @@ date: 2024-10-27T09:36:11+08:00
 lastmod: 2024-10-27T09:36:11+08:00
 draft: false
 
-resources:
-- name: featured-image
-  src: featured-img.webp
-- name: featured-image-preview
-  src: featured-img.webp
+featured-image: "featured-img.webp"
+featured-image-preview: "featured-img.webp"
 
 # 标签
 tags: ["Vercel", "Blog", "Cookie"]
@@ -45,6 +42,8 @@ comment:
 Continuing from the previous section, after roughly completing the setup of the DoIt blog, I deployed the blog using Vercel.
 
 Vercel supports a Live mode that allows website owners to make real-time modifications, and any website accessed through Vercel will automatically enter this mode.
+
+<!--more-->
 
 ## 2 Problems Encountered
 

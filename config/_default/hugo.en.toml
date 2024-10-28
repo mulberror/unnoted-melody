@@ -32,8 +32,8 @@ disclaimer = ""
 [params.sponsor]
 enable = true
 bio = "If you find my creation helpful, I would be pleased if get a free coffee~"
-link = "https://www.buymeacoffee.com/ryan4yin"                                    # The link to your sponsor page
-custom = ""                                                                       # Custom HTML button
+link = "https://www.buymeacoffee.com/ryan4yin" # The link to your sponsor page
+custom = "" # Custom HTML button
 
 [params.home.posts]
 enable = true
