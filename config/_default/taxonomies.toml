@@ -1,7 +1,8 @@
 # Options for taxonomies
 # 用于分类的设置
-
+_merge = "shallow"
 author = "authors"
 category = "categories"
 tag = "tags"
 series = "series"
+collection = "collections"

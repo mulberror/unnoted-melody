@@ -1,5 +1,5 @@
 ---
-title: "DoIt theme encountered loading problems in Vercel Live mode"
+title: "FixIt theme encountered loading problems in Vercel Live mode"
 subtitle: ""
 description: ""
 date: 2024-10-27T09:36:11+08:00
@@ -17,7 +17,7 @@ tags: ["Vercel", "Blog", "Cookie"]
 # 分类
 categories: ["Build-Site"]
 # 系列(如果下面这一行注释掉，就不会显示系列为空了)
-series: ["My-Blog-Reborn"]
+collections: ["My-Blog-Reborn"]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除
@@ -41,14 +41,14 @@ comment:
     enable: false
 ---
 
-## 1 Preface
-Continuing from the previous section, after roughly completing the setup of the DoIt blog, I deployed the blog using Vercel.
+## Preface
+Continuing from the previous section, after roughly completing the setup of the FixIt blog, I deployed the blog using Vercel.
 
 Vercel supports a Live mode that allows website owners to make real-time modifications, and any website accessed through Vercel will automatically enter this mode.
 
 <!--more-->
 
-## 2 Problems Encountered
+## Problems Encountered
 
 {{<figure src="/img/posts/little-problem-in-vercellive-mode/missing-of-js.webp" title="Some JS files failed to load" width="100%">}}
 
@@ -64,7 +64,7 @@ Initially, we thought this might be a CDN caching issue. However, when [MLAcooki
 
 Thus, we could rule out CDN caching as the problem, and our next target was to identify where the loading process locally was failing.
 
-## 3 Local Debugging
+## Local Debugging
 My roommate and I first compared the requested files and noticed significant differences. After several rounds of comparison and rejecting specific file requests, we found that the extra files were mainly being called by `rocket-loader.js`, specifically from a request in `feedback.js`.
 
 By inspecting the webpage files in the console, we discovered that the local loading threw an exception in `liveload.js`. After gradually running through the code, we identified that the error ultimately stemmed from the `vercel-live` module, leading to a mysterious stack overflow error due to repeated calls in the local stack space. However, due to my lack of knowledge in this area, I couldn't fully understand the underlying principles.
@@ -73,7 +73,7 @@ By inspecting the webpage files in the console, we discovered that the local loa
 
 Thus, we could roughly determine that the issue was a mysterious problem in Vercel Live mode locally, causing the page to fail to render correctly.
 
-## 4 Final Resolution
+## Final Resolution
 I switched to a completely new computer and accessed the blog directly instead of through Vercel, and the above issue was resolved.
 
 Returning to my original computer, I attempted to log out of Vercel to see if that would solve the problem. Unfortunately, the JS still failed to load, and the Vercel Live comment buttons remained hovering on the page, as I was still accessing the page through that mode.
@@ -88,7 +88,7 @@ However, I found it impossible to directly block the use of this cookie to resol
 
 The dark-light toggle part of the theme needs to read data from the cookie. Directly blocking the cookie causes the check in line 16 of the code to fail, leading to errors because it cannot read `localStorage`.
 
-## 5 Solution
+## Solution
 
 If you encounter this problem, you can resolve it by deleting **the cookies for this site**. This method needs to be implemented each time you access the blog through Vercel, which, while not problematic, is quite cumbersome.
 

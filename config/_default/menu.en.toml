@@ -1,7 +1,7 @@
 
 [[main]]
 identifier = "homepage"
-pre = ""
+pre = """<i class="fa-solid fa-house"></i>"""
 post = ""
 name = "Home"
 url = "/"
@@ -10,24 +10,24 @@ weight = 1
 
 [[main]]
 identifier = "documentation"
-pre = ""
+pre = """<i class="fa-solid fa-feather"></i>"""
 name = "Archives"
 url = "/posts/"
 title = ""
 weight = 2
 
 [[main]]
-identifier = "series"
-pre = ""
+identifier = "collections"
+pre = """<i class="fa-solid fa-layer-group"></i>"""
 post = ""
-name = "Series"
-url = "/series/"
+name = "Collections"
+url = "/collections/"
 title = ""
 weight = 3
 
 [[main]]
 identifier = "categories"
-pre = ""
+pre = """<i class="fa-solid fa-folder-tree"></i>"""
 post = ""
 name = "Category"
 url = "/categories/"
@@ -36,7 +36,7 @@ weight = 5
 
 [[main]]
 identifier = "Tags"
-pre = ""
+pre = """<i class="fa-solid fa-tags"></i>"""
 post = ""
 name = "Tags"
 url = "/tags/"
@@ -45,7 +45,7 @@ weight = 7
 
 [[main]]
 identifier = "friends"
-pre = ""
+pre = """<i class="fa-solid fa-user-group"></i>"""
 post = ""
 name = "Friends"
 url = "/friends"
@@ -54,7 +54,7 @@ weight = 8
 
 [[main]]
 identifier = "About"
-pre = ""
+pre = """<i class="fa-solid fa-droplet"></i>"""
 post = ""
 name = "About"
 url = "/about/"

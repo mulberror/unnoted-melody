@@ -14,5 +14,8 @@ git commit -m "fix: update config of theme"
 git push -u origin main
 cd ../..
 # 上传网站文件
+git add .
+git commit -m "fix: upload"
+git push -u origin main
 
 ```

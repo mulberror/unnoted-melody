@@ -1,7 +1,7 @@
 
 [[main]]
 identifier = "homapage"
-pre = ""
+pre = """<i class="fa-solid fa-house"></i>"""
 post = ""
 name = "首页"
 url = "/"
@@ -10,24 +10,24 @@ weight = 1
 
 [[main]]
 identifier = "documentation"
-pre = ""
+pre = """<i class="fa-solid fa-feather"></i>"""
 name = "归档"
 url = "/posts/"
 title = ""
 weight = 2
 
 [[main]]
-identifier = "series"
-pre = ""
+identifier = "collections"
+pre = """<i class="fa-solid fa-layer-group"></i>"""
 post = ""
-name = "系列"
-url = "/series/"
+name = "合集"
+url = "/collections/"
 title = ""
 weight = 3
 
 [[main]]
 identifier = "categories"
-pre = ""
+pre = """<i class="fa-solid fa-folder-tree"></i>"""
 post = ""
 name = "分类"
 url = "/categories/"
@@ -36,7 +36,7 @@ weight = 5
 
 [[main]]
 identifier = "tags"
-pre = ""
+pre = """<i class="fa-solid fa-tags"></i>"""
 post = ""
 name = "标签"
 url = "/tags/"
@@ -45,7 +45,7 @@ weight = 7
 
 [[main]]
 identifier = "friends"
-pre = ""
+pre = """<i class="fa-solid fa-user-group"></i>"""
 post = ""
 name = "友链"
 url = "/friends"
@@ -54,7 +54,7 @@ weight = 8
 
 [[main]]
 identifier = "about"
-pre = ""
+pre = """<i class="fa-solid fa-droplet"></i>"""
 post = ""
 name = "关于"
 url = "/about/"

@@ -23,7 +23,7 @@ keywords = [
   "Unnoted Melody"
 ]
 
-# DoIt 新增 | 0.2.0 日期格式
+# FixIt 新增 | 0.2.0 日期格式
 dateFormat = "2006-01-02"
 
 # whether to use robots.txt

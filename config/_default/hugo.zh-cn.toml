@@ -16,12 +16,12 @@ name = """
 """
 pre = "<i class='far fa-edit fa-fw'></i>"
 
-# DoIt 新增 | 0.2.13 赞赏配置
+# FixIt 新增 | 0.2.13 赞赏配置
 [params.sponsor]
 enable = true
 bio = "如果觉得我的文章有帮助，欢迎赠我一杯免费的咖啡~"
-link = ""                        # 你的赞赏页面的地址
-custom = ""                      # 自定义 HTML
+link = "" # 你的赞赏页面的地址
+custom = "" # 自定义 HTML
 
 [params.home.profile]
 enable = true
@@ -29,7 +29,7 @@ enable = true
 # gravatarEmail = "mulberror@gmail.com"
 # 头像的链接指向的 URL
 avatarLinkURL = "https://blog.mulbx.top/"
-# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+# FixIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
 title = ""
 # 主页显示的网站副标题
 subtitle = "与其抱怨长夜，何不秉烛夜行。"
@@ -37,7 +37,7 @@ subtitle = "与其抱怨长夜，何不秉烛夜行。"
 typeit = true
 # 是否显示社交账号
 social = true
-# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+# FixIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
 disclaimer = ""
 
 [params.home.posts]
@@ -45,10 +45,10 @@ enable = true
 # special amount of posts in each home posts page
 paginate = 10
 
-# DoIt 更改 | 0.2.7 第三方库文件的 CDN 设置
+# FixIt 更改 | 0.2.7 第三方库文件的 CDN 设置
 # [params.cdn]
 #   # CDN 数据文件名称, 默认不启用
-#   # 位于 "themes/DoIt/assets/data/cdn/" 目录
+#   # 位于 "themes/FixIt/assets/data/cdn/" 目录
 #   # 可以在你的项目下相同路径存放你自己的数据文件:
 #   # "assets/data/cdn/"
 #   data = "jsdelivr.yml"

@@ -16,7 +16,7 @@ pre = "<i class='far fa-edit fa-fw'></i>"
 [params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
-# DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
+# FixIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
 # 头像的链接指向的 URL
 avatarLinkURL = "https://blog.mulbx.top/en/"
 title = ""
@@ -26,7 +26,7 @@ subtitle = """Better to light on candle than to curse the darkness."""
 typeit = true
 # 是否显示社交账号
 social = true
-# DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
+# FixIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
 disclaimer = ""
 
 [params.sponsor]

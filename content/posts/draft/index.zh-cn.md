@@ -28,7 +28,7 @@ comment:
   disqus:
     enable: false
 ---
-![主题文档 - 扩展 Shortcodes](https://hugodoit.pages.dev/zh-cn/theme-documentation-extended-shortcodes/)
+![主题文档 - 扩展 Shortcodes](https://hugoFixIt.pages.dev/zh-cn/theme-documentation-extended-shortcodes/)
 
 ## 1 引用块
 
@@ -62,7 +62,7 @@ $$ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi $$
 [99]/[100]
 
 ## 5 emoji
-[Emoji 支持](https://hugodoit.pages.dev/zh-cn/emoji-support/)
+[Emoji 支持](https://hugoFixIt.pages.dev/zh-cn/emoji-support/)
 
 去露营啦! :tent: 很快就回来.
 
