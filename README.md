@@ -7,6 +7,8 @@ hugo serve --disableFastRender -e production --buildDrafts
 ```bash
 hugo serve --disableFastRender -e production
 # 上传 index.json 文件到 algolia，本地编译完上传即可
+$env:http_proxy="127.0.0.1:7890"
+$env:https_proxy="127.0.0.1:7890"
 python3 algolia.py
 # 上传网站文件
 git add .

@@ -10,14 +10,14 @@ post = ""
 name = "首页"
 url = "/"
 title = ""
-weight = 1
+weight = 10
 
 [[main]]
 identifier = "collections"
 parent = "archives"
 name = "合集"
 url = "/collections/"
-weight = 3
+weight = 30
 [main.params]
 icon = "fa-solid fa-layer-group"
 
@@ -29,7 +29,7 @@ post = ""
 name = "分类"
 url = "/categories/"
 title = ""
-weight = 5
+weight = 50
 
 [[main]]
 identifier = "tags"
@@ -39,7 +39,7 @@ post = ""
 name = "标签"
 url = "/tags/"
 title = ""
-weight = 7
+weight = 70
 
 [[main]]
 identifier = "archives"
@@ -47,16 +47,36 @@ pre = """<i class="fa-solid fa-box-archive"></i>"""
 name = "归档"
 url = "archives/"
 title = ""
-weight = 2
+weight = 20
+
+[[main]]
+identifier = "links"
+pre = """<i class="fa-solid fa-link"></i>"""
+post = ""
+name = "链接"
+url = ""
+title = ""
+weight = 75
+
+[[main]]
+identifier = "note"
+pre = """<i class="fa-solid fa-pen-to-square"></i>"""
+parent = "links"
+post = ""
+name = "碎语"
+url = "https://note.mulbx.top"
+title = ""
+weight = 81
 
 [[main]]
 identifier = "friends"
-pre = """<i class="fa-solid fa-user-group"></i>"""
+pre = """<i class="fa-solid fa-paper-plane"></i>"""
+parent = "links"
 post = ""
 name = "友链"
 url = "/friends"
 title = ""
-weight = 8
+weight = 80
 
 [[main]]
 identifier = "about"
@@ -65,4 +85,4 @@ post = ""
 name = "关于"
 url = "/about/"
 title = ""
-weight = 9
+weight = 90

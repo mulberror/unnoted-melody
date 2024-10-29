@@ -6,51 +6,74 @@ post = ""
 name = "Home"
 url = "/"
 title = ""
-weight = 1
+weight = 10
 
 [[main]]
-identifier = "documentation"
+identifier = "archives"
 pre = """<i class="fa-solid fa-feather"></i>"""
 name = "Archives"
-url = "/posts/"
+url = "/archives/"
 title = ""
-weight = 2
+weight = 20
 
 [[main]]
 identifier = "collections"
+parent = "archives"
 pre = """<i class="fa-solid fa-layer-group"></i>"""
 post = ""
 name = "Collections"
 url = "/collections/"
 title = ""
-weight = 3
+weight = 30
 
 [[main]]
 identifier = "categories"
+parent = "archives"
 pre = """<i class="fa-solid fa-folder-tree"></i>"""
 post = ""
 name = "Category"
 url = "/categories/"
 title = ""
-weight = 5
+weight = 50
 
 [[main]]
 identifier = "Tags"
+parent = "archives"
 pre = """<i class="fa-solid fa-tags"></i>"""
 post = ""
 name = "Tags"
 url = "/tags/"
 title = ""
-weight = 7
+weight = 70
+
+[[main]]
+identifier = "links"
+pre = """<i class="fa-solid fa-link"></i>"""
+post = ""
+name = "Links"
+url = ""
+title = ""
+weight = 75
 
 [[main]]
 identifier = "friends"
-pre = """<i class="fa-solid fa-user-group"></i>"""
+pre = """<i class="fa-solid fa-paper-plane"></i>"""
+parent = "links"
 post = ""
 name = "Friends"
 url = "/friends"
 title = ""
-weight = 8
+weight = 80
+
+[[main]]
+identifier = "note"
+pre = """<i class="fa-solid fa-pen-to-square"></i>"""
+parent = "links"
+post = ""
+name = "Notebook"
+url = "https://note.mulbx.top"
+title = ""
+weight = 81
 
 [[main]]
 identifier = "About"
@@ -59,4 +82,4 @@ post = ""
 name = "About"
 url = "/about/"
 title = ""
-weight = 9
+weight = 100
