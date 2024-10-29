@@ -1,3 +1,7 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration | 菜单配置
+# See: https://fixit.lruihao.cn/zh-cn/documentation/basics/#menu-configuration
+# -------------------------------------------------------------------------------------
 
 [[main]]
 identifier = "homapage"
@@ -9,24 +13,17 @@ title = ""
 weight = 1
 
 [[main]]
-identifier = "documentation"
-pre = """<i class="fa-solid fa-feather"></i>"""
-name = "归档"
-url = "/posts/"
-title = ""
-weight = 2
-
-[[main]]
 identifier = "collections"
-pre = """<i class="fa-solid fa-layer-group"></i>"""
-post = ""
+parent = "archives"
 name = "合集"
 url = "/collections/"
-title = ""
 weight = 3
+[main.params]
+icon = "fa-solid fa-layer-group"
 
 [[main]]
 identifier = "categories"
+parent = "archives"
 pre = """<i class="fa-solid fa-folder-tree"></i>"""
 post = ""
 name = "分类"
@@ -36,12 +33,21 @@ weight = 5
 
 [[main]]
 identifier = "tags"
+parent = "archives"
 pre = """<i class="fa-solid fa-tags"></i>"""
 post = ""
 name = "标签"
 url = "/tags/"
 title = ""
 weight = 7
+
+[[main]]
+identifier = "archives"
+pre = """<i class="fa-solid fa-box-archive"></i>"""
+name = "归档"
+url = "archives/"
+title = ""
+weight = 2
 
 [[main]]
 identifier = "friends"

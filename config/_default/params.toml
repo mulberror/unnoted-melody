@@ -10,7 +10,7 @@ keywords = [
   "莫柏瑞",
   "Full-Stack",
   "Computer Science",
-  "Mathematics"
+  "Mathematics",
 ]
 
 # 网站默认主题样式 ("light", "dark", "auto")
@@ -213,7 +213,7 @@ enable = true
 Twitter = true
 Facebook = true
 Linkedin = false
-Whatsapp = true
+Whatsapp = false
 Pinterest = false
 Tumblr = false
 HackerNews = false
@@ -229,11 +229,11 @@ Stumbleupon = false
 Flipboard = false
 Weibo = true
 Renren = false
-Myspace = true
+Myspace = false
 Blogger = true
-Baidu = false
+Baidu = true
 Odnoklassniki = false
-Evernote = true
+Evernote = false
 Skype = false
 Trello = false
 Mix = false
@@ -342,14 +342,14 @@ enable = false
 envId = "https://twikoo-comments-FixIt.vercel.app/"
 region = ""
 path = ""
-cloudbase = true # boolean : true / false. # 是否部署在腾讯云 CloudBase
+cloudbase = true                                    # boolean : true / false. # 是否部署在腾讯云 CloudBase
 visitor = true
 commentCount = true
 # Vssue comment config (https://vssue.js.org//)
 # Vssue comment 评论系统设置 (https://vssue.js.org//)
 [page.comment.vssue]
 enable = false
-platform = "" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+platform = ""     # ("bitbucket", "gitea", "gitee", "github", "gitlab")
 owner = ""
 repo = ""
 clientId = ""
@@ -368,10 +368,10 @@ simple_view = false
 [page.comment.giscus]
 enable = false
 # owner/repo
-dataRepo = ""
-dataRepoId = ""
-dataCategory = ""
-dataCategoryId = ""
+dataRepo = "mulberror/blog-comments"
+dataRepoId = "R_kgDONF-bHA"
+dataCategory = "Announcements"
+dataCategoryId = "DIC_kwDONF-bHM4Cjxi8"
 dataMapping = "pathname"
 dataStrict = "0"
 dataReactionsEnabled = "1"

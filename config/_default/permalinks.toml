@@ -2,4 +2,6 @@
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 
 # posts = ":year/:month/:filename"
-posts = ":filename"
+# posts = ":filename"
+documentation = ":sections[0:]/:slugorfilename"
+guides = "guides/:slugorfilename"

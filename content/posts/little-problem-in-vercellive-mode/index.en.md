@@ -1,7 +1,7 @@
 ---
 title: "FixIt theme encountered loading problems in Vercel Live mode"
 subtitle: ""
-description: ""
+description: "xxxxxxxxxxxxxxxxxxx"
 date: 2024-10-27T09:36:11+08:00
 lastmod: 2024-10-27T09:36:11+08:00
 draft: false
@@ -15,9 +15,9 @@ resources:
 # 标签
 tags: ["Vercel", "Blog", "Cookie"]
 # 分类
-categories: ["Build-Site"]
+categories: ["Build Site"]
 # 系列(如果下面这一行注释掉，就不会显示系列为空了)
-collections: ["My-Blog-Reborn"]
+collections: ["My Blog Reborn"]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除

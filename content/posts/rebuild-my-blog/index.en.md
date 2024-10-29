@@ -17,9 +17,9 @@ resources:
 # 标签
 tags: ["hugo", "vercel", "Blog"]
 # 分类
-categories: ["Build-Site"]
+categories: ["Build Site"]
 # 系列
-collections: ["My-Blog-Reborn"]
+collections: ["My Blog Reborn"]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除

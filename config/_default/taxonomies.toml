@@ -1,8 +1,8 @@
-# Options for taxonomies
-# 用于分类的设置
-_merge = "shallow"
-author = "authors"
+# -------------------------------------------------------------------------------------
+# Taxonomies Configuration | 分类法配置
+# See: https://gohugo.io/content-management/taxonomies/#configure-taxonomies
+# -------------------------------------------------------------------------------------
+
 category = "categories"
 tag = "tags"
-series = "series"
 collection = "collections"
