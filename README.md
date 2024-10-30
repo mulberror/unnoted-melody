@@ -1,11 +1,11 @@
 ## 本地预览
 ```bash
-hugo serve --disableFastRender -e production --buildDrafts
+hugo server --disableFastRender -e production --buildDrafts
 ```
 
 ## 工作流
 ```bash
-hugo serve --disableFastRender -e production
+hugo server --disableFastRender -e production
 # 上传 index.json 文件到 algolia，本地编译完上传即可
 $env:http_proxy="127.0.0.1:7890"
 $env:https_proxy="127.0.0.1:7890"

@@ -79,6 +79,16 @@ title = ""
 weight = 80
 
 [[main]]
+identifier = "now"
+pre = """<i class="fa-solid fa-clock"></i>"""
+# parent = ""
+post = ""
+name = "此刻"
+url = "/now"
+title = ""
+weight = 85
+
+[[main]]
 identifier = "about"
 pre = """<i class="fa-solid fa-droplet"></i>"""
 post = ""

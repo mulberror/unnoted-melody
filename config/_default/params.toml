@@ -10,7 +10,7 @@ keywords = [
   "莫柏瑞",
   "Full-Stack",
   "Computer Science",
-  "Mathematics",
+  "Mathematics"
 ]
 
 # 网站默认主题样式 ("light", "dark", "auto")
@@ -120,7 +120,7 @@ linkToEdit = false
 # FixIt 0.3.0 | 新增 是否显示报告文章问题的链接
 linkToReport = false
 # FixIt 0.3.10 | 更改 页面样式 ["narrow", "normal", "wide", ...]
-pageStyle = "narrow"
+pageStyle = "normal"
 # FixIt 0.2.17 | 更改 开启自动书签支持
 # 如果为 true，则在关闭页面时保存阅读进度
 autoBookmark = false
@@ -342,14 +342,14 @@ enable = false
 envId = "https://twikoo-comments-FixIt.vercel.app/"
 region = ""
 path = ""
-cloudbase = true                                    # boolean : true / false. # 是否部署在腾讯云 CloudBase
+cloudbase = true # boolean : true / false. # 是否部署在腾讯云 CloudBase
 visitor = true
 commentCount = true
 # Vssue comment config (https://vssue.js.org//)
 # Vssue comment 评论系统设置 (https://vssue.js.org//)
 [page.comment.vssue]
 enable = false
-platform = ""     # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+platform = "" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
 owner = ""
 repo = ""
 clientId = ""
