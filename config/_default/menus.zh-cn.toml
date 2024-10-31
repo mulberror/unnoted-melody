@@ -45,7 +45,7 @@ weight = 70
 identifier = "archives"
 pre = """<i class="fa-solid fa-box-archive"></i>"""
 name = "归档"
-url = "archives/"
+url = "/archives/"
 title = ""
 weight = 20
 
