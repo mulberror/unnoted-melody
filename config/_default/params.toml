@@ -120,7 +120,7 @@ linkToEdit = false
 # FixIt 0.3.0 | 新增 是否显示报告文章问题的链接
 linkToReport = false
 # FixIt 0.3.10 | 更改 页面样式 ["narrow", "normal", "wide", ...]
-pageStyle = "normal"
+pageStyle = "narrow"
 # FixIt 0.2.17 | 更改 开启自动书签支持
 # 如果为 true，则在关闭页面时保存阅读进度
 autoBookmark = false
