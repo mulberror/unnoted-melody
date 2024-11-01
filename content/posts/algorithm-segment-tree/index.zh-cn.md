@@ -214,7 +214,7 @@ int main() {
 
 假如需要查询 $[3,7]$ 这个区间内所有数字的和，我需要知道哪些区间的信息，也就是这个区间的总和是由哪些区间拼起来的。
 
-![section-query](img/section-query.png)
+![section-query](img/section-query.webp)
 
 如上图所示，需要知道 $[3,7]$ 这个**青色**区间中所有数字的和，需要找到上图中用**紫色**标注出来的节点，这些区间不会**相互覆盖**且可以**精确覆盖**查询区间，比较明显的确定这些区间的总数不会超过 $\log{n}$ 个。
 
@@ -250,7 +250,7 @@ int querySum(int p, int ql, int qr) {
 
 假设需要对原数组中第 $5$ 个位置的数字进行修改，那么就可以通过递归在线段树上找到对应的节点，如下图所示。
 
-![single-modify](./img/single-modify.png)
+![single-modify](./img/single-modify.webp)
 
 假如现在递归在节点 $p$，对应的区间为 $[l, r]$，区间的中点为 $mid$，题目要求修改的位置为 $pos$，可以进行以下的分类讨论：
 

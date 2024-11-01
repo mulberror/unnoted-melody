@@ -12,7 +12,7 @@ $env:https_proxy="127.0.0.1:7890"
 python3 algolia.py
 # 上传网站文件
 git add .
-git commit -m "fix: upload"
+git commit -m "fix: complete post algorithm-segment-tree"
 git push -u origin main
 
 ```
