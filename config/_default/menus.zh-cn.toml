@@ -13,6 +13,14 @@ title = ""
 weight = 10
 
 [[main]]
+identifier = "archives"
+pre = """<i class="fa-solid fa-box-archive"></i>"""
+name = "归档"
+url = "/archives/"
+title = ""
+weight = 20
+
+[[main]]
 identifier = "collections"
 parent = "archives"
 name = "合集"
@@ -42,14 +50,6 @@ title = ""
 weight = 70
 
 [[main]]
-identifier = "archives"
-pre = """<i class="fa-solid fa-box-archive"></i>"""
-name = "归档"
-url = "/archives/"
-title = ""
-weight = 20
-
-[[main]]
 identifier = "links"
 pre = """<i class="fa-solid fa-link"></i>"""
 post = ""
@@ -57,16 +57,6 @@ name = "链接"
 url = ""
 title = ""
 weight = 75
-
-[[main]]
-identifier = "note"
-pre = """<i class="fa-solid fa-pen-to-square"></i>"""
-parent = "links"
-post = ""
-name = "碎语"
-url = "https://note.mulbx.top"
-title = ""
-weight = 81
 
 [[main]]
 identifier = "friends"
@@ -77,6 +67,16 @@ name = "友链"
 url = "/friends"
 title = ""
 weight = 80
+
+[[main]]
+identifier = "note"
+pre = """<i class="fa-solid fa-pen-to-square"></i>"""
+parent = "links"
+post = ""
+name = "碎语"
+url = "https://note.mulbx.top"
+title = ""
+weight = 81
 
 [[main]]
 identifier = "time"
@@ -93,7 +93,7 @@ identifier = "prospect"
 pre = """<i class="fa-solid fa-rocket"></i>"""
 parent = "time"
 post = ""
-name = "眺望的远方"
+name = "眺望远方"
 url = "/time/prospect"
 title = ""
 weight = 86
@@ -103,7 +103,7 @@ identifier = ""
 pre = """<i class="fa-solid fa-backward"></i>"""
 parent = "time"
 post = ""
-name = "回看来时路"
+name = "回看来路"
 url = "/time/review"
 title = ""
 weight = 87

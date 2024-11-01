@@ -2,6 +2,7 @@
 title: "用 Hugo + Vercel 重建博客"
 subtitle: ""
 description: ""
+slug: e64b61
 date: 2024-10-22T00:51:43+08:00
 lastmod: 2024-10-24T00:51:43+08:00
 draft: false
@@ -42,16 +43,17 @@ comment:
   disqus:
     enable: false
 ---
+
 ## 前言
 我之前也是用 Hugo 框架搭建的博客，使用的主题是 PaperMod。
 
-不过因为大部分存货都丢失了，再加上碰巧见看到了 [ryan4yin](https://thiscute.world/) 大佬的博客，从而了解到了 [HEIGE-PCloud](https://pcloud.dev/) 大佬制作的 [FixIt](https://github.com/HEIGE-PCloud/FixIt) 主题。
+不过因为大部分存货都丢失了，再加上碰巧见看到了 [ryan4yin](https://thiscute.world/) 大佬的博客，从而了解到了 LeaveIt 系的主题以及 [Lruihao](https://lruihao.cn/) 大佬制作的 [FixIt](https://fixit.lruihao.cn/zh-cn/) 主题。
 
 FixIt 主题非常符合我一开始预想的博客样式，所以就直接花了一段时间进行了个人博客的重建，并且在这个期间还花了一点时间从零学了点前端知识，简单地写了一个简陋的个人主页 [My Little World](https://www.mulbx.top/)。
 
 ## 相关版本信息
 - Hugo: v0.136.4
-- FixIt: 0.4.X
+- FixIt: 0.3.X
 
 ## Hugo + Gitpage
 ### 本地配置
@@ -79,9 +81,9 @@ Vercel 从 github 中同步并部署项目的功能十分方便。
 
 使用 github 账号登录 Vercel 或者注册 Vercel 账号再关联自己的 github 账号，然后点击 `Add New...` 从 github 仓库中导入部署到 Gitpage 的博客。
 
-{{<figure src="/img/posts/rebuild-my-blog/port-from-vercel.webp" title="Vercel 中导入对应 github 项目" width="90%">}}
+{{<figure src="/img/port-from-vercel.webp" title="Vercel 中导入对应 github 项目" width="90%">}}
 
-{{<figure src="/img/posts/rebuild-my-blog/choose-hugo.webp" title="选择 Hugo 框架" width="90%">}}
+{{<figure src="/img/choose-hugo.webp" title="选择 Hugo 框架" width="90%">}}
 
 导入后，Vercel 中的项目和选择的 github 仓库就连接在一起了，只要本地 commit 一次，Vercel 中的项目也会重新部署一次。
 

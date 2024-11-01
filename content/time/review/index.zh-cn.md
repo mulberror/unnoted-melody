@@ -1,5 +1,5 @@
 ---
-title: "回看来时路"
+title: "回看来路"
 date: 2024-10-30T00:24:31+08:00
 draft: false
 hiddenfromsearch: true

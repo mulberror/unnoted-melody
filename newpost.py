@@ -11,8 +11,8 @@ def newpost(en_name, enable_en=False):
 
     if enable_en:
         shutil.copy(f"./content/posts/{post_name}/index.zh-cn.md", f"./content/posts/{post_name}/index.en.md")
-    
-    os.system(f"mkdir ./static/posts/{post_name}/")
+
+    os.makedirs(f"./content/posts/{post_name}/img/")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

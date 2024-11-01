@@ -1,3 +1,7 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration | 菜单配置
+# See: https://fixit.lruihao.cn/zh-cn/documentation/basics/#menu-configuration
+# -------------------------------------------------------------------------------------
 
 [[main]]
 identifier = "homepage"
@@ -76,10 +80,40 @@ title = ""
 weight = 81
 
 [[main]]
-identifier = "About"
-pre = """<i class="fa-solid fa-droplet"></i>"""
+identifier = "time"
+pre = """<i class="fa-solid fa-film"></i>"""
+# parent = ""
+post = ""
+name = "Time"
+url = "/time"
+title = ""
+weight = 85
+
+[[main]]
+identifier = "prospect"
+pre = """<i class="fa-solid fa-rocket"></i>"""
+parent = "time"
+post = ""
+name = "Prospect"
+url = "/time/prospect"
+title = ""
+weight = 86
+
+[[main]]
+identifier = ""
+pre = """<i class="fa-solid fa-backward"></i>"""
+parent = "time"
+post = ""
+name = "Review"
+url = "/time/review"
+title = ""
+weight = 87
+
+[[main]]
+identifier = "about"
+pre = """<i class="fa-solid fa-circle-info"></i>"""
 post = ""
 name = "About"
 url = "/about/"
 title = ""
-weight = 100
+weight = 90

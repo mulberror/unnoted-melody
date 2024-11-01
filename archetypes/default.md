@@ -2,6 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 description: ""
+slug: {{ substr .File.UniqueID 0 7 }}
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
@@ -18,8 +19,8 @@ resources:
 tags: []
 # 分类
 categories: [""]
-# 系列(如果下面这一行注释掉，就不会显示系列为空了)
-# series: []
+# 合集(如果下面这一行注释掉，就不会显示系列为空了)
+# collection: [""]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除
@@ -30,15 +31,42 @@ lightgallery: false
 # 否开启表格排序
 table:
   sort: false
-
 toc:
   enable: true
-
+  auto: true
+expirationReminder:
+  enable: false
+  # ...
+code:
+  copy: true
+  # ...
+edit:
+  enable: false
+  # ...
+math:
+  enable: true
+  # ...
+mapbox:
+  accessToken: ""
+  # ...
+share:
+  enable: true
+  # ...
 comment:
-  utterances:
-    enable: true
-  waline:
-    enable: false
-  disqus:
-    enable: false
+  enable: true
+  # ...
+library:
+  css:
+    # someCSS = "some.css"
+    # 位于 "assets/"
+    # 或者
+    # someCSS = "https://cdn.example.com/some.css"
+  js:
+    # someJS = "some.js"
+    # 位于 "assets/"
+    # 或者
+    # someJS = "https://cdn.example.com/some.js"
+seo:
+  images: []
+  # ...
 ---

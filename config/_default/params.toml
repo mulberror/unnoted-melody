@@ -22,7 +22,7 @@ enablePWA = false
 name = "Mulberror"
 email = "mulberror@gmail.com"
 link = "https://blog.mulbx.top"
-avatar = ""
+avatar = "/img/author/avatar.webp"
 # gravatarEmail = "mulberror@gmail.com"
 
 # FixIt 新增 | 0.2.0 List (目录或标签) 页面配置
@@ -428,7 +428,7 @@ logoUrl = "/img/author/avatar.webp"
 # Related content config
 # 相关文章推荐配置
 [page.related]
-enable = true
+enable = false
 count = 3
 
 # 页面头部导航栏配置

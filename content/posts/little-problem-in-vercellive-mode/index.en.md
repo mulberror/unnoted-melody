@@ -1,7 +1,8 @@
 ---
 title: "FixIt theme encountered loading problems in Vercel Live mode"
 subtitle: ""
-description: "xxxxxxxxxxxxxxxxxxx"
+description: ""
+slug: 07a220
 date: 2024-10-27T09:36:11+08:00
 lastmod: 2024-10-27T09:36:11+08:00
 draft: false
@@ -50,7 +51,7 @@ Vercel supports a Live mode that allows website owners to make real-time modific
 
 ## Problems Encountered
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/missing-of-js.webp" title="Some JS files failed to load" width="100%">}}
+{{<figure src="/img/missing-of-js.webp" title="Some JS files failed to load" width="100%">}}
 
 As shown in the image, the animation for loading the blog title on the left and the opening of the search bar on the right require loading JS files, but neither of these components loaded successfully.
 
@@ -60,7 +61,7 @@ I would like to especially thank my good roommate [MLAcookie](https://mlacookie.
 
 Initially, we thought this might be a CDN caching issue. However, when [MLAcookie](https://mlacookie.top/) and another roommate accessed the blog using the same environment, they successfully loaded everything. After checking the requested files, we found that the browser had indeed requested the corresponding JS files.
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/js-loaded-in-local.webp" title="JS files requested locally" width="100%">}}
+{{<figure src="/img/js-loaded-in-local.webp" title="JS files requested locally" width="100%">}}
 
 Thus, we could rule out CDN caching as the problem, and our next target was to identify where the loading process locally was failing.
 
@@ -69,7 +70,7 @@ My roommate and I first compared the requested files and noticed significant dif
 
 By inspecting the webpage files in the console, we discovered that the local loading threw an exception in `liveload.js`. After gradually running through the code, we identified that the error ultimately stemmed from the `vercel-live` module, leading to a mysterious stack overflow error due to repeated calls in the local stack space. However, due to my lack of knowledge in this area, I couldn't fully understand the underlying principles.
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/liveload-error.webp" title="Exception thrown during local rendering" width="100%">}}
+{{<figure src="/img/liveload-error.webp" title="Exception thrown during local rendering" width="100%">}}
 
 Thus, we could roughly determine that the issue was a mysterious problem in Vercel Live mode locally, causing the page to fail to render correctly.
 
@@ -80,11 +81,11 @@ Returning to my original computer, I attempted to log out of Vercel to see if th
 
 Checking the local cookie situation, I found that even when logged out, the deployed project still recognized and activated Live mode through local cookies.
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/cookie.webp" title="Deployed project activates Vercel Live mode through local cookies" width="100%">}}
+{{<figure src="/img/cookie.webp" title="Deployed project activates Vercel Live mode through local cookies" width="100%">}}
 
 However, I found it impossible to directly block the use of this cookie to resolve the issue; the theme still failed to load due to the thrown exception.
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/blocking-cookie-error.webp" title="Directly blocking the cookie leads to errors" width="100%">}}
+{{<figure src="/img/blocking-cookie-error.webp" title="Directly blocking the cookie leads to errors" width="100%">}}
 
 The dark-light toggle part of the theme needs to read data from the cookie. Directly blocking the cookie causes the check in line 16 of the code to fail, leading to errors because it cannot read `localStorage`.
 
@@ -92,7 +93,7 @@ The dark-light toggle part of the theme needs to read data from the cookie. Dire
 
 If you encounter this problem, you can resolve it by deleting **the cookies for this site**. This method needs to be implemented each time you access the blog through Vercel, which, while not problematic, is quite cumbersome.
 
-{{<figure src="/img/posts/little-problem-in-vercellive-mode/delete-cookie.webp" title="Delete the cookies for this site" width="70%">}}
+{{<figure src="/img/delete-cookie.webp" title="Delete the cookies for this site" width="70%">}}
 
 Vercel's functionality is already robust and stable, so once you import your project from GitHub, you can typically proceed without needing to interact with Vercel further.
 
