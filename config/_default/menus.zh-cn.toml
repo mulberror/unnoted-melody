@@ -79,18 +79,38 @@ title = ""
 weight = 80
 
 [[main]]
-identifier = "now"
-pre = """<i class="fa-solid fa-clock"></i>"""
+identifier = "time"
+pre = """<i class="fa-solid fa-film"></i>"""
 # parent = ""
 post = ""
-name = "此刻"
-url = "/now"
+name = "时光"
+url = "/time"
 title = ""
 weight = 85
 
 [[main]]
+identifier = "prospect"
+pre = """<i class="fa-solid fa-rocket"></i>"""
+parent = "time"
+post = ""
+name = "眺望的远方"
+url = "/time/prospect"
+title = ""
+weight = 86
+
+[[main]]
+identifier = ""
+pre = """<i class="fa-solid fa-backward"></i>"""
+parent = "time"
+post = ""
+name = "回看来时路"
+url = "/time/review"
+title = ""
+weight = 87
+
+[[main]]
 identifier = "about"
-pre = """<i class="fa-solid fa-droplet"></i>"""
+pre = """<i class="fa-solid fa-circle-info"></i>"""
 post = ""
 name = "关于"
 url = "/about/"
