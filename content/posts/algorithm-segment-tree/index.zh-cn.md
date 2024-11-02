@@ -261,6 +261,7 @@ int querySum(int p, int ql, int qr) {
 
 不过在子节点的值进行更新过，其祖先节点的信息也都需要进行更新，也就是在递归返回的时候需要用 `push` 函数将父节点的信息进行更新。
 
+### 代码实现
 ```cpp
 void modify(int p, int pos, int v) { // 将 pos 这个位置上的数字增加 v
     int l = seg[p].l, r = seg[p].r;
