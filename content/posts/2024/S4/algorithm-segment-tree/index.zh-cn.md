@@ -16,7 +16,7 @@ resources:
   src: featured-img.webp
 
 # 标签
-tags: ['二分', '线段树']
+tags: ['二分', '线段树', '数据结构']
 # 分类
 categories: ["算法"]
 # 合集(如果下面这一行注释掉，就不会显示系列为空了)
