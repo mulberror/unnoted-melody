@@ -1,10 +1,10 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "Cs61a Stage 1"
 subtitle: ""
 description: ""
-slug: {{ substr .File.UniqueID 0 6 }}
-date: {{ .Date }}
-lastmod: {{ .Date }}
+slug: 7e6684
+date: 2024-11-05T12:24:36+08:00
+lastmod: 2024-11-05T12:24:36+08:00
 draft: true
 
 resources:
