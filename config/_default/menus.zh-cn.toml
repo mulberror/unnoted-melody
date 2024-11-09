@@ -93,17 +93,17 @@ identifier = "prospect"
 pre = """<i class="fa-solid fa-rocket"></i>"""
 parent = "time"
 post = ""
-name = "眺望远方"
+name = "未来"
 url = "/time/prospect"
 title = ""
 weight = 86
 
 [[main]]
-identifier = ""
+identifier = "review"
 pre = """<i class="fa-solid fa-backward"></i>"""
 parent = "time"
 post = ""
-name = "回看来路"
+name = "过去"
 url = "/time/review"
 title = ""
 weight = 87
