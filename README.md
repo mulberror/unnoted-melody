@@ -1,6 +1,6 @@
 ## 本地预览
 ```bash
-hugo server --disableFastRender -e production --buildDrafts
+hugo server --disableFastRender -e production --buildDrafts # 无视 draft
 ```
 
 ## 工作流
