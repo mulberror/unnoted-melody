@@ -65,7 +65,7 @@ FixIt 主题非常符合我一开始预想的博客样式，所以就直接花�
 
 安装好依赖后，就可以进行本地博客相关的配置了。
 
-我选择的是 [FixIt](https://github.com/HEIGE-PCloud/FixIt) 主题，直接就参考了作者编写的文档 [主题文档 - 基本概念](https://hugoFixIt.pages.dev/zh-cn/theme-documentation-basics/)。
+我选择的是 [FixIt](https://github.com/HEIGE-PCloud/FixIt) 主题，直接就参考了作者编写的文档 [主题文档 - 基本概念](https://fixit.lruihao.cn/zh-cn/documentation/installation/)。
 
 不过因为作者的文档适用 FixIt 0.2.X 的版本，所以在写这篇文章的时候，也就是我配置博客时还是遇到少许问题。
 

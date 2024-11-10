@@ -95,7 +95,7 @@ pre = """<i class="fa-solid fa-rocket"></i>"""
 parent = "time"
 post = ""
 name = "Prospect"
-url = "/time/prospect"
+url = "/prospect"
 title = ""
 weight = 86
 
@@ -105,7 +105,7 @@ pre = """<i class="fa-solid fa-backward"></i>"""
 parent = "time"
 post = ""
 name = "Review"
-url = "/time/review"
+url = "/review"
 title = ""
 weight = 87
 
