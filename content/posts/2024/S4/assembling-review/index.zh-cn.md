@@ -1,5 +1,5 @@
 ---
-title: "汇编语言与微机接口期中复习"
+title: "汇编语言与微机接口"
 subtitle: ""
 description: ""
 slug: 2f0f83
@@ -70,4 +70,4 @@ seo:
   images: []
   # ...
 ---
-## 
+## 前言
