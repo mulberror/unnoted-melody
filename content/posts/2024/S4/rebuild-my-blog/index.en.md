@@ -68,7 +68,7 @@ First, install Go and Hugo, and configure it according to the official documenta
 
 After installing the dependencies, you can proceed with the local blog configuration.
 
-I chose the [FixIt](https://github.com/HEIGE-PCloud/FixIt) theme and directly referred to the documentation written by the author [Theme Documentation - Basic Concepts](https://hugoFixIt.pages.dev/zh-cn/theme-documentation-basics/).
+I chose the [FixIt](https://github.com/HEIGE-PCloud/FixIt) theme and directly referred to the documentation written by the author [Theme Documentation - Basic Concepts](https://fixit.lruihao.cn/zh-cn/documentation/installation/).
 
 However, since the author's documentation is applicable to FixIt version 0.2.X, I encountered a few issues while writing this article, which was also when I configured my blog.
 
