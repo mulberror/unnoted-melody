@@ -79,13 +79,10 @@ seo:
 个人做的是 `2024 Fall` 的版本，课程相关资料：
 
 > [!NOTE] 课程资料
-> 课程主页: [CS61A](https://cs61a.org/)
-> 
-> 课程教材: [composing programs](https://www.composingprograms.com/)
-> 
-> 课程教材中文翻译: [https://composingprograms.netlify.app/](https://composingprograms.netlify.app/)
->
-> `2024 Fall` 课程资料及个人代码: [mulberror/CS61A](https://github.com/mulberror/CS61A)
+> 课程主页: [CS61A](https://cs61a.org/) \
+> 课程教材: [composing programs](https://www.composingprograms.com/) \
+> 课程教材中文翻译: [https://composingprograms.netlify.app/](https://composingprograms.netlify.app/) \
+> `2024 Fall` 课程资料及个人代码: [mulberror/CS61A](https://github.com/mulberror/CS61A) 
 
 ## 实验 0: Getting Started
 
@@ -117,6 +114,7 @@ python3 ok --score
 ```
 
 ## 作业 2: 高阶函数
+
 `hw01`、`lab01` 前面两个部分都比较简单，所以这几个部分写在一起。
 
 不过虽然简单，前面几张的内容都在强调一个概念，就是**面向对象**，感觉也可以叫做**函数式编程**。
@@ -127,6 +125,7 @@ python3 ok --score
 
 
 ### 作业 2. make_repeater
+
 举一个简单的例子，`hw02` 中的 `make_repeater` 这个部分：
 
 传入的是一个可以使用的函数 `f`，以及一个循环的次数 `n`；从 `make_repeater(square, 3)(5)` 这个调用方式可以看出传出的也是一个函数。
