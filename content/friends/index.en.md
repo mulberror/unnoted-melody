@@ -20,7 +20,8 @@ var myFriends = [
     ["https://gggaaalleeee.top/", "https://gggaaalleeee.top/image/avatar.jpg", "gggaaallleee - 学长", "阳和启蛰，天雨流芳。"], 
     ["https://www.lonesome.cn/", "https://www.lonesome.cn/assets/avatar.png", "Ximo - 同学", "惜寞的无人小间"], 
     ["https://blog.bluebird.icu/", "https://blog.bluebird.icu/config/head.jpg", "青鸟 - 同学", "青鸟のBlog"], 
-    ["https://ljw030710.github.io/", "https://avatars.githubusercontent.com/u/115199222?v=4", "iolzyy - 同学", "人生如一片静水，唯有内心澄澈，方能映照出真正的天地。"]
+    ["https://ljw030710.github.io/", "https://avatars.githubusercontent.com/u/115199222?v=4", "iolzyy - 同学", "人生如一片静水，唯有内心澄澈，方能映照出真正的天地。"],
+    ["https://blog.liip.fun/", "https://blog.liip.fun/avatar.jpg", "离谱 - 学弟", "离谱的blog"],
 ];
 
 // 以下为核心功能内容，修改前请确保理解您的行为内容与可能造成的结果
@@ -69,6 +70,10 @@ while (myFriends.length > 0) {
     line-height: 1.3;
     height: 90px;
     display: block
+}
+
+[data-theme='dark'] .linkpage h4 {
+    color: #dddddd;
 }
 
 .linkpage h3 {
