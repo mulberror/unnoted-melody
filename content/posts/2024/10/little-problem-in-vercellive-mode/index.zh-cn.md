@@ -33,13 +33,6 @@ table:
 toc:
   enable: true
 
-comment:
-  utterances:
-    enable: true
-  waline:
-    enable: false
-  disqus:
-    enable: false
 ---
 
 > [!NOTE]-

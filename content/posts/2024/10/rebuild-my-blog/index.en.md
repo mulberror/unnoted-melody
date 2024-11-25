@@ -34,14 +34,6 @@ table:
 
 toc:
   enable: true
-
-comment:
-  utterances:
-    enable: true
-  waline:
-    enable: false
-  disqus:
-    enable: false
 ---
 {{< admonition tip "" true >}}
 This post is an experimental post of testing the related config of English web.  
