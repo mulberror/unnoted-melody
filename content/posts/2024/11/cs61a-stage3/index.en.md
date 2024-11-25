@@ -1,10 +1,10 @@
 ---
-title: "UCB CS61A 课程学习阶段性小结（二）"
+title: "Cs61a Stage 3"
 subtitle: ""
 description: ""
-slug: fae47f
-date: 2024-11-13T08:25:42+08:00
-lastmod: 2024-11-13T08:25:42+08:00
+slug: 5a1140
+date: 2024-11-24T14:56:29+08:00
+lastmod: 2024-11-24T14:56:29+08:00
 draft: true
 
 resources:
@@ -70,4 +70,3 @@ seo:
   images: []
   # ...
 ---
-本篇文章主要记录一下从
