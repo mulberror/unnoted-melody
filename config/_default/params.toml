@@ -370,9 +370,9 @@ enable = true
 # owner/repo
 repo = "mulberror/blog-comments"
 repoId = "R_kgDONF-bHA"
-category = "General"
+category = "Announcements"
 categoryId = "DIC_kwDONF-bHM4Cjxi8"
-mapping = "title"
+mapping = "pathname"
 strict = "0"
 reactionsEnabled = "1"
 emitMetadata = "0"
