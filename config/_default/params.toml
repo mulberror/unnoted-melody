@@ -381,6 +381,16 @@ lightTheme = "light"
 darkTheme = "dark_dimmed"
 lazyLoad = "lazy"
 
+[busuanzi]
+  # whether to enable busuanzi count
+  enable = true
+  # busuanzi count core script source. Default is https://vercount.one/js
+  source = "https://vercount.one/js"
+  # whether to show the site views
+  siteViews = true
+  # whether to show the page views
+  pageViews = true
+
 # artalk comment config (https://artalk.js.org/guide/frontend/config.html)
 # artalk comment 评论系统设置 (https://artalk.js.org/guide/frontend/config.html)
 [page.comment.artalk]
