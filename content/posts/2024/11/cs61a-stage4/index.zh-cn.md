@@ -1,10 +1,10 @@
 ---
-title: "Assembling Midterm Review"
+title: "Cs61a Stage 4"
 subtitle: ""
 description: ""
-slug: 2f0f83
-date: 2024-11-07T09:15:05+08:00
-lastmod: 2024-11-07T09:15:05+08:00
+slug: f5c5a0
+date: 2024-11-27T15:55:10+08:00
+lastmod: 2024-11-27T15:55:10+08:00
 draft: true
 
 resources:
@@ -20,7 +20,7 @@ tags: []
 # 分类
 categories: [""]
 # 合集(如果下面这一行注释掉，就不会显示系列为空了)
-# collection: [""]
+# collections: [""]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除

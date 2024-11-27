@@ -26,3 +26,10 @@ absoluteURL = false
 index = "zh_index"
 appID = "MXP1WFVWGE"
 searchKey = "e718147816b4e89d6799cf290fa03961"
+
+[footer.siteTime]
+  enable = true
+  animate = true
+  icon = "fa-solid fa-heartbeat"
+  pre = "本站已运行"
+  value = "2024-10-20T00:51:43+08:00" # e.g. "2021-12-18T16:15:22+08:00"
