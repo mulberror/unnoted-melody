@@ -87,8 +87,12 @@ peakCount = 10
 orderby = "name"
 
 [customPartials]
-  head = []
-  profile = []
+  head = [
+    "custom/header.html"
+  ]
+  profile = [
+    "custom/profile.html",
+  ]
   aside = []
   comment = []
   footer = []

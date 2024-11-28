@@ -16,7 +16,7 @@ resources:
   src: featured-img.webp
 
 # 标签
-tags: ['Python', '编程基础', '数据抽象', '搜索']
+tags: ['Python', '编程基础', '数据抽象', '搜索', '游戏开发']
 # 分类
 categories: ["学习"]
 # 合集(如果下面这一行注释掉，就不会显示系列为空了)
