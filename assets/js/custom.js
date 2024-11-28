@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function positionScrollButton() {
         const homeProfileHeight = homeProfile.offsetHeight;
-        const buttonOffset = homeProfileHeight * 0.17; // 按钮距离背景图片底部的偏移量
+        const buttonOffset = homeProfileHeight * 0.27; // 按钮距离背景图片底部的偏移量
         scrollButton.style.top = `${homeProfileHeight - buttonOffset}px`; // 按钮位置在背景图片底部上方一点
     }
 

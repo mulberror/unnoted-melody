@@ -38,4 +38,45 @@ header {
 
 .dropdown-icon.rotate {
     transform: rotate(180deg);
+} 
+
+#header-mobile .header-container .menu {
+    background-color: transparent !important;
+}
+
+#header-mobile .header-container .menu .search-wrapper {
+    background-color: transparent !important;
+}
+
+#header-mobile .header-container .menu .menu-item:not(.menu-system):hover {
+    background-color: transparent !important;
+}
+
+#header-mobile .header-container .menu .menu-system {
+    background-color: transparent !important;
+}
+
+#header-mobile .header-container .menu {
+    border-top-color: transparent !important;
+}
+
+.search.mobile input {
+    background-color: transparent !important;
+    border: 1px solid #ccc;
+}
+
+.search input {
+    background-color: transparent !important;
+    border: 1px solid #ccc;
+}
+
+.search-dropdown .dropdown-menu {
+    // background-color: transparent !important;
+    // border: 1px solid #ccc;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.search-dropdown .dropdown-menu .suggestions .suggestion.cursor {
+    background: transparent !important;
 }
