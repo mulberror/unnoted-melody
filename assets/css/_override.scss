@@ -28,7 +28,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem !important;
+    padding-top: 0rem !important;
     padding-bottom: 3rem !important;
 }
 
@@ -71,12 +71,6 @@ header {
 }
 
 .search-dropdown .dropdown-menu {
-    // background-color: transparent !important;
-    // border: 1px solid #ccc;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-}
-
-.search-dropdown .dropdown-menu .suggestions .suggestion.cursor {
-    background: transparent !important;
 }
