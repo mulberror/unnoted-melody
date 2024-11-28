@@ -487,7 +487,7 @@ typeit = true
 
 # map 面包屑导航配置。
 [breadcrumb]
-enable = true
+enable = false
 sticky = true
 showHome = true
 separator = "/"

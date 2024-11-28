@@ -3,12 +3,6 @@ title: "友链"
 date: 2024-10-28T00:24:31+08:00
 draft: false
 hiddenfromsearch: true
-
-comment:
-  utterances:
-    enable: true
-  waline:
-    enable: false
 ---
 
 <div class="linkpage"><ul id="friendsList"></ul></div>

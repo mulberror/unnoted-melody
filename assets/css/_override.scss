@@ -12,3 +12,30 @@
 
 $code-font-family: "Fira Code", Consolas, monospace;
 $global-font-family: "Shantell Sans", 'LXGW WenKai', sans-serif, monospace;
+
+header {
+    background: transparent !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    position: relative;
+    z-index: 1;
+}
+
+.home-profile {
+    box-sizing: border-box;
+    height: MAX(calc(100vh + 2.5rem), 450px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.dropdown-icon {
+    transition: transform 0.3s ease;
+}
+
+.dropdown-icon.rotate {
+    transform: rotate(180deg);
+}

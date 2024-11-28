@@ -30,7 +30,7 @@ enable = true
 # 头像的链接指向的 URL
 avatarLinkURL = "https://blog.mulbx.top/"
 # FixIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-title = ""
+title = "莫泊瑞的博客"
 # 主页显示的网站副标题
 subtitle = "与其抱怨长夜，何不秉烛夜行。"
 # 是否为副标题显示打字机动画

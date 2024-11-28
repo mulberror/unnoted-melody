@@ -5,11 +5,6 @@ draft: false
 
 lightgallery: true
 
-comment:
-  utterances:
-    enable: false
-  waline:
-    enable: false
 ---
 ![72038523](72038523_p0.webp)
 

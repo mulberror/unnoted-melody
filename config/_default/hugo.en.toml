@@ -19,7 +19,7 @@ enable = true
 # FixIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
 # 头像的链接指向的 URL
 avatarLinkURL = "https://blog.mulbx.top/en/"
-title = ""
+title = "Mulberror's Blog"
 # 主页显示的网站副标题
 subtitle = """Better to light on candle than to curse the darkness."""
 # 是否为副标题显示打字机动画
@@ -32,7 +32,7 @@ disclaimer = ""
 [params.sponsor]
 enable = true
 bio = "If you find my creation helpful, I would be pleased if get a free coffee~"
-link = "https://www.buymeacoffee.com/ryan4yin" # The link to your sponsor page
+link = "" # The link to your sponsor page
 custom = "" # Custom HTML button
 
 [params.home.posts]
