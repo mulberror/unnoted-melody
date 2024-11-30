@@ -1,5 +1,5 @@
 ---
-title: "UCB CS61A 课程学习阶段性小结（三）"
+title: "「UCB CS61A 课程学习阶段性小结三」面向对象编程"
 subtitle: ""
 description: ""
 slug: 5a1140

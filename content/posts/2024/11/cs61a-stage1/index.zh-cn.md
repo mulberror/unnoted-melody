@@ -1,5 +1,5 @@
 ---
-title: "UCB CS61A 课程学习阶段性小结（一）"
+title: "「UCB CS61A 课程学习阶段性小结一」Python 基础语法"
 subtitle: ""
 description: ""
 slug: 7e6684

@@ -1,10 +1,10 @@
 ---
-title: "Cs61a Stage 4"
+title: "Cs61a Stage5"
 subtitle: ""
 description: ""
-slug: f5c5a0
-date: 2024-11-27T15:55:10+08:00
-lastmod: 2024-11-27T15:55:10+08:00
+slug: f38a77
+date: 2024-11-30T23:53:36+08:00
+lastmod: 2024-11-30T23:53:36+08:00
 draft: true
 
 resources:
@@ -70,35 +70,3 @@ seo:
   images: []
   # ...
 ---
-
-由于后面关于 Scheme 的相关内容比较多，所以
-
-## 实验 8: Mutable Trees
-
-实验 8 的内容比较简单，目的就是熟悉一下树的结构。
-
-### 实验 8. 问题 5: Maximum Path Sum
-
-这个问题是求树中从根节点到叶子节点的最大路径和。
-
-函数返回子树中的最大路径和。
-
-假设要求解以 $r$ 为根的最大路径，该路径就是 $r$ 子树中最大的路径再加上 $r$ 上标签上的值。
-
-```python
-def max_path_sum(t):
-    """Return the maximum path sum of the tree.
-
-    >>> t = Tree(1, [Tree(5, [Tree(1), Tree(3)]), Tree(10)])
-    >>> max_path_sum(t)
-    11
-    """
-    "*** YOUR CODE HERE ***"
-    if t.is_leaf():
-        return t.label
-    else:
-        max_path = 0
-        for b in t.branches:
-            max_path = max(max_path, max_path_sum(b))
-        return t.label + max_path
-```
