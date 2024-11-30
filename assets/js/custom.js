@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function positionScrollButton() {
         const windowHeight = window.innerHeight;
         scrollButton.style.top = `${windowHeight * 0.8}px`; // 按钮位置在背景图片底部上方一点
+        scrollButton.style.display = 'block';
     }
 
     const resizeObserver = new ResizeObserver(() => {
