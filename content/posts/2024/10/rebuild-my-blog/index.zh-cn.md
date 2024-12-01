@@ -37,6 +37,7 @@ toc:
 ---
 
 ## 前言
+
 我之前也是用 Hugo 框架搭建的博客，使用的主题是 PaperMod。
 
 不过因为大部分存货都丢失了，再加上碰巧见看到了 [ryan4yin](https://thiscute.world/) 大佬的博客，从而了解到了 LeaveIt 系的主题以及 [Lruihao](https://lruihao.cn/) 大佬制作的 [FixIt](https://fixit.lruihao.cn/zh-cn/) 主题。
@@ -46,11 +47,14 @@ FixIt 主题非常符合我一开始预想的博客样式，所以就直接花�
 <!--more-->
 
 ## 相关版本信息
+
 - Hugo: v0.136.4
 - FixIt: 0.3.X
 
 ## Hugo + Gitpage
+
 ### 本地配置
+
 这个部分对于每个 Hugo 用户应该都比较熟练，在这里简单记录一下。
 
 首先就是安装 Go 和 Hugo，根据官方文档配置即可 [Hugo Document](https://gohugo.io/documentation/)。
@@ -62,6 +66,7 @@ FixIt 主题非常符合我一开始预想的博客样式，所以就直接花�
 不过因为作者的文档适用 FixIt 0.2.X 的版本，所以在写这篇文章的时候，也就是我配置博客时还是遇到少许问题。
 
 ### 部署 Gitpage
+
 这部分主要依据 Hugo 官方文档中的配置教程 [Host on GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)。
 
 我之前尝试了三个主题的配置，如果单纯的将 `hugo server` 生成的 `\public` 静态资源直接推到 github 仓库中，最后渲染出来的静态页面多少渲染都会出问题，因此还是采取官方文档的部署方法。
@@ -69,6 +74,7 @@ FixIt 主题非常符合我一开始预想的博客样式，所以就直接花�
 根据官方配置的方法，一般只需要注意将 `.github/workflows/hugo.yaml` 中的 branch 信息以及 `HUGO_VERSION` 中的 Hugo 版本信息替换成自己对应的即可。
 
 ## Vercel
+
 Vercel 从 github 中同步并部署项目的功能十分方便。
 
 在本地资源 push 到 github 仓库后，Vercel 会直接同步资源并且部署的速度非常快。

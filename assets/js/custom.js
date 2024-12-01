@@ -23,10 +23,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateBackground() {
         const theme = html.getAttribute('data-theme');
-        if (theme === 'dark') {
-            body.style.backgroundImage = 'url("/background-dark.webp")';
+        // console.log('111');
+        const isRootPage = window.location.pathname === '/';
+        if (isRootPage) {
+            if (theme === 'dark') {
+                body.style.backgroundImage = 'url("/background-dark.webp")';
+            } else {
+                body.style.backgroundImage = 'url("/background-light.webp")';
+            }
         } else {
-            body.style.backgroundImage = 'url("/background-light.webp")';
+            body.style.backgroundImage = ''; // 移除背景图片
         }
     }
 
