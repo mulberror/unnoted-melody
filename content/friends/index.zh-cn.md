@@ -43,7 +43,6 @@ while (myFriends.length > 0) {
 </script>
 
 <style>
-
 .linkpage ul {
     color: rgba(255,255,255,.15)
 }
@@ -135,5 +134,4 @@ while (myFriends.length > 0) {
         padding-left: 5px
     }
 }
-
 </style>
