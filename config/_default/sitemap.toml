@@ -3,6 +3,7 @@
 # See: https://gohugo.io/templates/sitemap-template/#configuration
 # -------------------------------------------------------------------------------------
 
+disable = false
 changefreq = "weekly"
 filename = "sitemap.xml"
 priority = 0.5

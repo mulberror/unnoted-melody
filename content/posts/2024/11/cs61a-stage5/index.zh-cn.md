@@ -1,11 +1,11 @@
 ---
-title: "Cs61a Stage5"
+title: "「UCB CS61A 课程学习阶段性小结五」函数式编程与 Scheme"
 subtitle: ""
 description: ""
 slug: f38a77
 date: 2024-11-30T23:53:36+08:00
 lastmod: 2024-11-30T23:53:36+08:00
-draft: true
+draft: false
 
 resources:
 # 文章特色图片
@@ -16,11 +16,11 @@ resources:
   src: featured-img.webp
 
 # 标签
-tags: []
+tags: ['Scheme', '函数式编程', 'Python', '编程基础', '链表', '抽象思维']
 # 分类
-categories: [""]
+categories: ["学习"]
 # 合集(如果下面这一行注释掉，就不会显示系列为空了)
-# collections: [""]
+collections: ["CS61A 学习记录"]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除
@@ -71,8 +71,19 @@ seo:
   # ...
 ---
 
+由于该部分的内容比较多，且是国内教育较少接触的部分，所以本篇文章的范围就是 CS61A 课程关于 Scheme 的所有内容，从 `lab09` 到 `proj scheme`。
+
+Scheme 语言是一种函数式编程语言，是一种 Lisp 方言，是一种基于表达式的编程语言，它的语法非常简单，只有三种基本结构：原子、列表和引用。
+
+不过语法简单并不代表该语言简单，函数式语言与传统的编译型语言非常不同，一种基于计算模型的编程范式，非常考验抽象思考能力，CS61A 课程中单独设置了该部分的内容来进行抽象编程思维的训练。
+
+<!--more--->
 
 ## 函数式编程 Scheme
+
+> [!WARNING]
+> 初学者如果来学习部分，可能会觉得有些难度。\
+> 该部分的 Scheme 语言的学习其实是对链表的理解强化，如果对链表不是特别熟悉的话，强烈建议复习一下之前关于链表的内容。
 
 特点是只使用表达式而不使用语句，特别适合符号计算，并且它处理的数据都是不可变的。
 
@@ -82,7 +93,7 @@ seo:
 | **是否互斥** | 不是语言特性，与实现方式无关 | 是语言特性，与范式无关 | 是语言特性，与范式无关 |
 | **常见结合** | 解释型语言和编译型语言均可支持 | 可用于支持函数式编程的语言 | 可用于支持函数式编程的语言 |
 
-### Scheme
+### Scheme 语言
 
 表达式一般采用**前缀**的形式进行表示，即运算符在运算数的前面。
 
@@ -104,29 +115,25 @@ seo:
 Scheme 语言处理取模数操作：
 
 - **`remainder`**
-    
     返回两个数相除的余数，余数的符号与被除数相同。
-    
+
     ```scheme
     (remainder 5 3)  ; 返回 2
     (remainder -5 3) ; 返回 -2
     ```
-    
-- **`modulo`**
-    
-    返回两个数相除的余数，余数的符号与除数相同。
-    
-    ```scheme
-    (modulo 5 3)    ; 返回 2
-    (modulo -5 3)   ; 返回 1
-    ```
-    
-- **`quotient`**
-    
-    它返回两个数相除后的整数部分（即商的整数部分）
-    
 
-Scheme 中的 **`pair` :**
+- **`modulo`**
+    返回两个数相除的余数，余数的符号与除数相同。
+
+    ```scheme
+        (modulo 5 3)    ; 返回 2
+        (modulo -5 3)   ; 返回 1
+    ```
+
+- **`quotient`**
+    它返回两个数相除后的整数部分（即商的整数部分）
+
+Scheme 中的 **`pair` （链表的基础）:**
 
 ```scheme
 scm> (define x (cons 1 2))
@@ -230,16 +237,13 @@ scm> (cdr x)
 调用语句和一些特殊形式的语句最终会转变成 Pair 类型。
 
 - Q: What exception should be raised for the expression (1)?
-    
+
     Choose the number of the correct choice:
-    
     1. SchemeError("malformed list: (1)")
     2. SchemeError("1 is not callable")
     3. SchemeError("unknown identifier: 1")
     4. AssertionError
-    
     在 Scheme 语言中，单独这样一个数字其实是可以的，但是在项目中编写的解释器会让这个归类到一个调用运算中，所以这道题目是选择 1。
-    
 
 这个 `scheme_eval` 需要调用 `scheme_apply` 进行运算，简单可以理解成 `eval` 这个函数将 scheme 语句切分成若干个参数，然后给 `apply` 这个运算。
 
@@ -281,9 +285,11 @@ class BuiltinProcedure(Procedure):
 
 需要注意一点这个 `operator` 也有可能是一个运算后得到的结果，递归调用 `scheme_eval` 函数就可以将符号转换成对应的过程对象，转换后可以通过 `scheme_utils.py` 中的函数进行检验是否是 `Procedure` 对象。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/944c3f74-fe35-4956-9820-c6a974769279/716e0f7c-262c-4453-ba76-c5097b6ef96f/image.png)
+{{<figure src="/img/scheme_eval_1.png" title="scheme_eval 测试输出结果" width="90%">}}
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/944c3f74-fe35-4956-9820-c6a974769279/3e4101b8-8ca1-4bc6-b02b-eb6ac8494fed/image.png)
+{{<figure src="/img/scheme_eval_2.png" title="" width="90%">}}
+
+> 对于每一道题目，我都会将所有的测试的参数列表输出出来看一下，格式长什么样，然后再对照着项目文档中的输出结果构思中间的过程。
 
 然后就是将需要运算的参数都处理出来，这个结果也有可能有嵌套，所以该部分也需要递归调用 `scheme_eval` 函数进行运算，根据文档中的提示，可以调用 `Pair` 的 `map` 函数将里面所有的元素运算一遍。
 
@@ -341,3 +347,49 @@ elif isinstance(procedure, LambdaProcedure):
 ```
 
 后面的问题 11 也有相关提示，其实就是修改一下作用域，代码如文档中所说非常相似。
+
+### 问题 14: 实现 Scheme 中的 let 语句
+
+该部分需要实现 Scheme 语言中的 let 语句的解释器，通过之前的实验可以知道这个 let 也创建了一个独立的作用域 `Frame` ，并且往里面绑定了一些新的变量。
+
+首先就是要对这个绑定的过程进行一定的判定，这个绑定的过程的一定是两个元素，判定完后需要注意到这些值是在原本的作用域中计算得到的。
+
+比如说
+
+```scheme
+(let ((x 5))
+....    (let ((x 2)
+....          (y x))
+```
+
+以上这份代码中 `y` 的值为 5，如果之前做 Scheme 相关实验的时候这一部分比较模糊的话，可以认真做一下 `-u` 部分的题目回顾一下。
+
+```python
+def make_let_frame(bindings, env):
+    """Create a child frame of Frame ENV that contains the definitions given in
+    BINDINGS. The Scheme list BINDINGS must have the form of a proper bindings
+    list in a let expression: each item must be a list containing a symbol
+    and a Scheme expression."""
+    if not scheme_listp(bindings):
+        raise SchemeError('bad bindings list in let form')
+    names = vals = nil
+    # BEGIN PROBLEM 14
+    "*** YOUR CODE HERE ***"
+    print('DEBUG: bindings =', bindings)
+    current = bindings
+    while current is not nil:
+        binding = current.first
+        validate_form(binding, 2, 2)
+        key, value = binding.first, scheme_eval(binding.rest.first, env)
+        names = Pair(key, names)
+        vals = Pair(value, vals)
+        # print('DEBUG: names =', names, ', vals =', vals)
+        current = current.rest
+    # END PROBLEM 14
+    validate_formals(names)
+    return env.make_child_frame(names, vals)
+```
+
+<!-- TODO: cs61a proj/scheme EC -->
+> [!NOTE]- TODO
+> EC 部分的问题还没有完成，等哪天有时间再补起来。
