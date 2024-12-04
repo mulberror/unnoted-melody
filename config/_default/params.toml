@@ -570,4 +570,4 @@ sogou = ""
   # Tag names that need to be ignored for translation
   ignoreTag = ['title']
   # Whether to detect the local language
-  detectLocalLanguage = true
+  detectLocalLanguage = false
