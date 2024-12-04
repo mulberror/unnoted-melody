@@ -90,6 +90,12 @@ orderby = "name"
   head = [
     "custom/header.html"
   ]
+  menuDesktop = [
+    "inject/translate-menu-desktop.html",
+  ]
+  menuMobile = [
+    "inject/translate-menu-mobile.html",
+  ]
   profile = [
     "custom/profile.html",
   ]
@@ -99,14 +105,10 @@ orderby = "name"
   widgets = []
   assets = [
     "inject/cmpt-flyfish.html",
+    "inject/cmpt-translate.html",
   ]
   postFooterBefore = []
   postFooterAfter = []
-
-[flyfish]
-  enable = true
-  light = "rgb(0 119 190 / 10%)"
-  dark = "rgb(255 255 255 / 10%)"
 
 [page]
 # FixIt 0.2.18 | 新增 是否启用文章作者头像
@@ -539,3 +541,33 @@ pinterest = ""
 baidu = "codeva-th8nzaQhTh"
 so = ""
 sogou = ""
+
+[flyfish]
+  enable = true
+  light = "rgb(0 119 190 / 10%)"
+  dark = "rgb(255 255 255 / 10%)"
+
+# Auto translation configuration
+# See: https://github.com/xnx3/translate/
+[autoTranslate]
+  enable = true
+  # The translation service provider, ['client.edge', 'translate.service']
+  # See: https://translate.zvo.cn/43086.html
+  service = 'client.edge'
+  # List of language ID to translate to, e.g. ["english", "chinese_simplified", "chinese_traditional", ...]
+  # See the full language list: https://api.translate.zvo.cn/language.json
+  languages = [
+    'english',
+    'chinese_simplified',
+    'japanese',
+    'chinese_traditional',
+    'french',
+  ]
+  # Element IDs that needs to be ignored for translation
+  ignoreID = []
+  # Class names that need to be ignored for translation
+  ignoreClass = []
+  # Tag names that need to be ignored for translation
+  ignoreTag = ['title']
+  # Whether to detect the local language
+  detectLocalLanguage = true
