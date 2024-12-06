@@ -77,7 +77,7 @@ seo:
 
 由于后面关于 Scheme 的相关内容比较多，并且最后的项目 Scheme 是使用 Python 写一个 Scheme 语言的解释器。
 
-受限于篇幅原因，还是决定把有关 Scheme 的内容单独写成一片[文章](https://blog.mulbx.top/posts/2024/11/f38a77/)
+受限于篇幅原因，还是决定把有关 Scheme 的内容单独写成一片[文章](https://blog.mulbx.top/posts/2024/11/f38a77/)，本篇也会比较短。
 
 本篇文章的范围是从 `lab06` 到 `lab08` 和 `hw06` 的内容。
 
