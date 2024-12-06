@@ -68,12 +68,13 @@ url = "/friends"
 title = ""
 weight = 80
 
+
 [[main]]
 identifier = "note"
-pre = """<i class="fa-solid fa-pen-to-square"></i>"""
+pre = """<i class="fa-solid fa-book"></i>"""
 parent = "links"
 post = ""
-name = "碎语"
+name = "笔记"
 url = "https://note.mulbx.top"
 title = ""
 weight = 81

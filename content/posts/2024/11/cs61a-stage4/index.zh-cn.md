@@ -8,7 +8,7 @@ lastmod: 2024-11-27T15:55:10+08:00
 draft: true
 
 resources:
-# 文章特色图片
+# 文章特色图片 
 - name: featured-image
   src: featured-img.webp
 # 首页预览特色图片
