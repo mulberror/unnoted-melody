@@ -89,3 +89,7 @@ seo:
 
 ### 本地生成依赖文件
 
+```bash
+pip freeze > requirements.txt # 生成依赖文件
+```
+
