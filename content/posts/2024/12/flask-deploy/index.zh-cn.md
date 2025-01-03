@@ -36,7 +36,6 @@ toc:
   auto: true
 expirationReminder:
   enable: false
-  jas
   # ...
 code:
   copy: true
