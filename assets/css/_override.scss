@@ -4,9 +4,16 @@
     }
 }
 
+@font-face {
+    font-family: 'Aa-font';
+    src: url('../Aa-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+$global-font-family: "Aa-font", sans-serif;
 $code-font-family: "Fira Code", Consolas, monospace;
 
 header {
