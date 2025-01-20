@@ -5,16 +5,27 @@
 }
 
 @font-face {
-    font-family: 'Aa-font';
-    src: url('../Aa-font.ttf') format('truetype');
+    font-family: 'LXGWWenKai-Regular';
+    src: url('../LXGWWenKai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IPix';
+    src: url('../IPix.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
-$global-font-family: "Aa-font", sans-serif;
+$global-font-family: "LXGWWenKai-Regular", sans-serif;
 $code-font-family: "Fira Code", Consolas, monospace;
+
+.header-title {
+    font-family: 'IPix' !important;
+}
 
 header {
     background: transparent !important;
