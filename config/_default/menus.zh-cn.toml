@@ -89,23 +89,23 @@ url = "/time"
 title = ""
 weight = 85
 
-[[main]]
-identifier = "prospect"
-pre = """<i class="fa-solid fa-rocket"></i>"""
-parent = "time"
-post = ""
-name = "未来"
-url = "/prospect"
-title = ""
-weight = 86
+# [[main]]
+# identifier = "prospect"
+# pre = """<i class="fa-solid fa-rocket"></i>"""
+# parent = "time"
+# post = ""
+# name = "未来"
+# url = "/prospect"
+# title = ""
+# weight = 86
 
 [[main]]
-identifier = "review"
+identifier = "summary"
 pre = """<i class="fa-solid fa-backward"></i>"""
 parent = "time"
 post = ""
-name = "过去"
-url = "/review"
+name = "年度总结"
+url = "/summary"
 title = ""
 weight = 87
 
