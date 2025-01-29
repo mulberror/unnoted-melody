@@ -1,10 +1,10 @@
 ---
-title: "CS61B Lab2: JUnit 测试及 Debug"
+title: "Cs61b Proj1 Deque"
 subtitle: ""
 description: ""
-slug: bd6769
-date: 2025-01-26T11:27:20+08:00
-lastmod: 2025-01-26T11:27:20+08:00
+slug: 7c3eb9
+date: 2025-01-29T15:25:59+08:00
+lastmod: 2025-01-29T15:25:59+08:00
 draft: true
 
 resources:
@@ -16,11 +16,11 @@ resources:
   src: featured-img.webp
 
 # 标签
-tags: ['CS61B', 'Java', 'JUnit', 'Debug']
+tags: []
 # 分类
-categories: ["学习"]
+categories: [""]
 # 合集(如果下面这一行注释掉，就不会显示系列为空了)
-collections: ["CS61B 学习记录"]
+# collections: [""]
 # 从主页面中去除
 hiddenFromHomePage: false
 # 从搜索中去除
@@ -70,8 +70,3 @@ seo:
   images: []
   # ...
 ---
-
-## 前言
-
-在 gradescope 上的 autograder 为了防止学生反复使用 AG 测试代码，所以对测试的频率有所限制，还是比较培养编程者的编程习惯的，需要将代码完善、测试完毕后再提交到上面进行测试。
-
