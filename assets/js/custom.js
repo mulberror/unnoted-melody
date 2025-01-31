@@ -23,8 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateBackground() {
         const theme = html.getAttribute('data-theme');
-        // console.log('111');
-        const isRootPage = window.location.pathname === '/' || window.location.pathname === '/en/';
+        const isRootPage = /^\/(en\/)?(page\/\d+\/)?$/.test(
+          window.location.pathname
+        );
         if (isRootPage) {
             if (theme === 'dark') {
                 body.style.backgroundImage = 'url("/background-dark.webp")';
