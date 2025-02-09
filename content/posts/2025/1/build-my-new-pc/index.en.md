@@ -1,10 +1,10 @@
 ---
-title: "2024 Infomation Review"
+title: "Build My New Pc"
 subtitle: ""
 description: ""
-slug: a84d12
-date: 2025-01-07T18:39:39+08:00
-lastmod: 2025-01-07T18:39:39+08:00
+slug: 9bc993
+date: 2025-02-09T21:49:24+08:00
+lastmod: 2025-02-09T21:49:24+08:00
 draft: true
 
 resources:
