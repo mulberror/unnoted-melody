@@ -21,7 +21,7 @@ enablePWA = false
 [author]
 name = "Mulberror"
 email = "mulberror@gmail.com"
-link = "https://blog.mulbx.top"
+link = "https://blog.mulbry.top"
 avatar = "/img/author/avatar.webp"
 # gravatarEmail = "mulberror@gmail.com"
 
@@ -87,28 +87,28 @@ peakCount = 10
 orderby = "name"
 
 [customPartials]
-  head = [
-    "custom/header.html"
-  ]
-  menuDesktop = [
-    "inject/translate-menu-desktop.html",
-  ]
-  menuMobile = [
-    "inject/translate-menu-mobile.html",
-  ]
-  profile = [
-    "custom/profile.html",
-  ]
-  aside = []
-  comment = []
-  footer = []
-  widgets = []
-  assets = [
-    "inject/cmpt-flyfish.html",
-    "inject/cmpt-translate.html",
-  ]
-  postFooterBefore = []
-  postFooterAfter = []
+head = [
+  "custom/header.html"
+]
+menuDesktop = [
+  "inject/translate-menu-desktop.html"
+]
+menuMobile = [
+  "inject/translate-menu-mobile.html"
+]
+profile = [
+  "custom/profile.html"
+]
+aside = []
+comment = []
+footer = []
+widgets = []
+assets = [
+  "inject/cmpt-flyfish.html",
+  "inject/cmpt-translate.html"
+]
+postFooterBefore = []
+postFooterAfter = []
 
 [page]
 # FixIt 0.2.18 | 新增 是否启用文章作者头像
@@ -406,14 +406,14 @@ darkTheme = "dark_dimmed"
 lazyLoad = "lazy"
 
 [busuanzi]
-  # whether to enable busuanzi count
-  enable = true
-  # busuanzi count core script source. Default is https://vercount.one/js
-  source = "https://vercount.one/js"
-  # whether to show the site views
-  siteViews = true
-  # whether to show the page views
-  pageViews = true
+# whether to enable busuanzi count
+enable = true
+# busuanzi count core script source. Default is https://vercount.one/js
+source = "https://vercount.one/js"
+# whether to show the site views
+siteViews = true
+# whether to show the page views
+pageViews = true
 
 # artalk comment config (https://artalk.js.org/guide/frontend/config.html)
 # artalk comment 评论系统设置 (https://artalk.js.org/guide/frontend/config.html)
@@ -543,31 +543,31 @@ so = ""
 sogou = ""
 
 [flyfish]
-  enable = true
-  light = "rgb(0 119 190 / 10%)"
-  dark = "rgb(255 255 255 / 10%)"
+enable = true
+light = "rgb(0 119 190 / 10%)"
+dark = "rgb(255 255 255 / 10%)"
 
 # Auto translation configuration
 # See: https://github.com/xnx3/translate/
 [autoTranslate]
-  enable = true
-  # The translation service provider, ['client.edge', 'translate.service']
-  # See: https://translate.zvo.cn/43086.html
-  service = 'client.edge'
-  # List of language ID to translate to, e.g. ["english", "chinese_simplified", "chinese_traditional", ...]
-  # See the full language list: https://api.translate.zvo.cn/language.json
-  languages = [
-    'english',
-    'chinese_simplified',
-    'japanese',
-    'chinese_traditional',
-    'french',
-  ]
-  # Element IDs that needs to be ignored for translation
-  ignoreID = []
-  # Class names that need to be ignored for translation
-  ignoreClass = []
-  # Tag names that need to be ignored for translation
-  ignoreTag = ['title']
-  # Whether to detect the local language
-  detectLocalLanguage = false
+enable = true
+# The translation service provider, ['client.edge', 'translate.service']
+# See: https://translate.zvo.cn/43086.html
+service = 'client.edge'
+# List of language ID to translate to, e.g. ["english", "chinese_simplified", "chinese_traditional", ...]
+# See the full language list: https://api.translate.zvo.cn/language.json
+languages = [
+  'english',
+  'chinese_simplified',
+  'japanese',
+  'chinese_traditional',
+  'french'
+]
+# Element IDs that needs to be ignored for translation
+ignoreID = []
+# Class names that need to be ignored for translation
+ignoreClass = []
+# Tag names that need to be ignored for translation
+ignoreTag = ['title']
+# Whether to detect the local language
+detectLocalLanguage = false
