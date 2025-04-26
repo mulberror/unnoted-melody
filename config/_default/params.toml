@@ -104,7 +104,6 @@ comment = []
 footer = []
 widgets = []
 assets = [
-  "inject/cmpt-flyfish.html",
   "inject/cmpt-translate.html"
 ]
 postFooterBefore = []
@@ -541,11 +540,6 @@ pinterest = ""
 baidu = "codeva-th8nzaQhTh"
 so = ""
 sogou = ""
-
-[flyfish]
-enable = true
-light = "rgb(0 119 190 / 10%)"
-dark = "rgb(255 255 255 / 10%)"
 
 # Auto translation configuration
 # See: https://github.com/xnx3/translate/
